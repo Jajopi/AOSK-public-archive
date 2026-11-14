@@ -150,7 +150,7 @@ def signature(tex: str) -> str:
     return t[:250] if len(t) > 80 else ''
 
 
-def problem_issues(f, dup_of):
+def problem_issues(f):
     out = []
     w = ' '.join(f.get('warnings', []))
     if not f['hasSolution']:
@@ -163,8 +163,6 @@ def problem_issues(f, dup_of):
         out.append('odkaz na neexistujúci obrázok/rovnicu/tabuľku (??)')
     if 'pandoc failed' in w:
         out.append('text sa nepodarilo skonvertovať')
-    for d in dup_of:
-        out.append('rovnaké zadanie ako %d %s %s %s „%s“' % (d['year'], d['round'], d['category'], d['label'], d['title']))
     return out
 
 
@@ -269,6 +267,17 @@ def write_year_pages(years, summary):
         for f in info['problems']:
             if f['_sig']:
                 by_sig.setdefault(f['_sig'], []).append(f)
+    dups = {}
+    for group in by_sig.values():
+        for f in group:
+            others = [{'year': d['year'], 'round': d['round'], 'roundName': d['roundName'], 'category': d['category'],
+                       'label': d['label'], 'title': d['title'], 'url': '%d/%s/' % (d['year'], d['_slug'])}
+                      for d in group if d is not f]
+            if others:
+                dups['%d/%s' % (f['year'], f['_slug'])] = others
+    DATA.mkdir(parents=True, exist_ok=True)
+    (DATA / 'duplicates.json').write_text(json.dumps(dups, ensure_ascii=False, indent=1, sort_keys=True))
+    # overview of what exists / is missing
     rows = []
     for y, info in sorted(years.items()):
         cells, issues = {}, []
@@ -277,8 +286,7 @@ def write_year_pages(years, summary):
             c[0] += 1
             c[1] += 0 if f['hasSolution'] else 1
             c[2] += 1 if any('image' in w for w in f.get('warnings', [])) else 0
-            dup = [d for d in by_sig.get(f['_sig'], []) if d is not f] if f['_sig'] else []
-            found = problem_issues(f, dup)
+            found = problem_issues(f)
             if found:
                 issues.append({'title': f['title'], 'where': '%s %s %s' % (f['round'], f['category'], f['label']),
                                'url': '%d/%s/' % (f['year'], f['_slug']), 'issues': found})

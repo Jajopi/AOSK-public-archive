@@ -7,3 +7,10 @@
   {{ with .Params.authors }}<div><dt>Autor</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
   {{ with .GetTerms "tagy" }}<div><dt>Témy</dt><dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd></div>{{ end }}
 </dl>
+{{- with index hugo.Data.duplicates (printf "%d/%s" .Params.year .File.ContentBaseName) }}
+<p class="notice">Rovnaké zadanie bolo použité aj
+{{- range $i, $d := . }}{{ if $i }},{{ end }}
+  {{ if eq $d.year $.Params.year }}v kategórii {{ $d.category }}{{ if ne $d.round $.Params.round }} ({{ $d.roundName }}){{ end }}{{ else }}v ročníku {{ $d.year }} ({{ $d.roundName }} {{ $d.category }}){{ end }}:
+  <a href="{{ site.Home.RelPermalink }}{{ $d.url }}">{{ $d.label }} {{ $d.title }}</a>
+{{- end }}.</p>
+{{- end }}

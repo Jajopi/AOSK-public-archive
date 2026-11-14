@@ -34,9 +34,6 @@ also listed live in the last column of the [overview page](https://jajopi.github
   2020 CK SŠ Ú4, 2021 CK SŠ Ú2.
 - 2011 CK SŠ Ú4: `$` inside a formula.
 - 15 unresolved references in the compiled PDF (probably statement↔solution links broken by the title mismatches).
-- Same statement in two places – check whether the year is right or the problem was really reused:
-  2007 CK SŠ Ú3/Ú5/Ú6 = 2020 DK SŠ Ú1, 2020 DK SŠ Ú4, 2018 DK SŠ Ú1; 2008 DK ZŠ Ú2 = 2014 DK ZŠ Ú5.
-  Shared ZŠ/SŠ problems (2014 Ú6, 2015 ZŠ Ú6 = SŠ Ú5, 2016 Ú5) appear in both categories.
 
 ## All projects
 - Links without a scheme (`\url{www.aosk.eu/…}`) and an e-mail written as `\url{zbierka@aosk.sk}`

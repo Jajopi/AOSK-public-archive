@@ -1,0 +1,156 @@
+{
+ "2007/ck-ss-u3-uloha-3": [
+  {
+   "category": "SŠ",
+   "label": "Ú1",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Galaxia",
+   "url": "2020/dk-ss-u1-galaxia/",
+   "year": 2020
+  }
+ ],
+ "2007/ck-ss-u5-uloha-5": [
+  {
+   "category": "SŠ",
+   "label": "Ú4",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Družica HIPPARCOS",
+   "url": "2020/dk-ss-u4-druzica-hipparcos/",
+   "year": 2020
+  }
+ ],
+ "2007/ck-ss-u6-uloha-6": [
+  {
+   "category": "SŠ",
+   "label": "Ú1",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Celková jasnosť hviezd",
+   "url": "2018/dk-ss-u1-celkova-jasnost-hviezd/",
+   "year": 2018
+  }
+ ],
+ "2008/dk-zs-u2-uloha-2": [
+  {
+   "category": "ZŠ",
+   "label": "Ú5",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Obeh kométy",
+   "url": "2014/dk-zs-u5-obeh-komety/",
+   "year": 2014
+  }
+ ],
+ "2014/dk-ss-u6-uloha-6": [
+  {
+   "category": "ZŠ",
+   "label": "Ú6",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 6",
+   "url": "2014/dk-zs-u6-uloha-6/",
+   "year": 2014
+  }
+ ],
+ "2014/dk-zs-u5-obeh-komety": [
+  {
+   "category": "ZŠ",
+   "label": "Ú2",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 2",
+   "url": "2008/dk-zs-u2-uloha-2/",
+   "year": 2008
+  }
+ ],
+ "2014/dk-zs-u6-uloha-6": [
+  {
+   "category": "SŠ",
+   "label": "Ú6",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 6",
+   "url": "2014/dk-ss-u6-uloha-6/",
+   "year": 2014
+  }
+ ],
+ "2015/dk-ss-u5-uloha-5": [
+  {
+   "category": "ZŠ",
+   "label": "Ú6",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 6",
+   "url": "2015/dk-zs-u6-uloha-6/",
+   "year": 2015
+  }
+ ],
+ "2015/dk-zs-u6-uloha-6": [
+  {
+   "category": "SŠ",
+   "label": "Ú5",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 5",
+   "url": "2015/dk-ss-u5-uloha-5/",
+   "year": 2015
+  }
+ ],
+ "2016/dk-ss-u5-uloha-5": [
+  {
+   "category": "ZŠ",
+   "label": "Ú5",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 5",
+   "url": "2016/dk-zs-u5-uloha-5/",
+   "year": 2016
+  }
+ ],
+ "2016/dk-zs-u5-uloha-5": [
+  {
+   "category": "SŠ",
+   "label": "Ú5",
+   "round": "DK",
+   "roundName": "Domáce kolo",
+   "title": "Úloha 5",
+   "url": "2016/dk-ss-u5-uloha-5/",
+   "year": 2016
+  }
+ ],
+ "2018/dk-ss-u1-celkova-jasnost-hviezd": [
+  {
+   "category": "SŠ",
+   "label": "Ú6",
+   "round": "CK",
+   "roundName": "Celoštátne kolo",
+   "title": "Úloha 6",
+   "url": "2007/ck-ss-u6-uloha-6/",
+   "year": 2007
+  }
+ ],
+ "2020/dk-ss-u1-galaxia": [
+  {
+   "category": "SŠ",
+   "label": "Ú3",
+   "round": "CK",
+   "roundName": "Celoštátne kolo",
+   "title": "Úloha 3",
+   "url": "2007/ck-ss-u3-uloha-3/",
+   "year": 2007
+  }
+ ],
+ "2020/dk-ss-u4-druzica-hipparcos": [
+  {
+   "category": "SŠ",
+   "label": "Ú5",
+   "round": "CK",
+   "roundName": "Celoštátne kolo",
+   "title": "Úloha 5",
+   "url": "2007/ck-ss-u5-uloha-5/",
+   "year": 2007
+  }
+ ]
+}

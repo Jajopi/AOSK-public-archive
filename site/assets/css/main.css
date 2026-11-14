@@ -68,6 +68,7 @@ dl.meta { display: flex; flex-wrap: wrap; gap: .2rem 1.4rem; font-size: .88rem; 
   padding: .6rem .9rem; border-left: 4px solid var(--yellow); }
 dl.meta div { display: flex; gap: .35rem; }
 dl.meta dt { color: var(--muted); }
+p.notice { font-size: .88rem; color: var(--muted); margin: -.5rem 0 1rem; padding: .3rem .9rem; border-left: 4px solid var(--blue); }
 dl.meta dd { margin: 0; }
 article.problem h2 { font-size: 1.3rem; margin-top: 1.6rem; }
 ol[type="a"] > li::marker { content: "(" counter(list-item, lower-alpha) ") "; color: var(--yellow); }

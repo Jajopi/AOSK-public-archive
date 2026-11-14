@@ -10,13 +10,13 @@
     0,
     0
    ],
-   "DK SŠ": [
-    4,
+   "CK ZŠ": [
+    7,
     0,
     0
    ],
-   "CK ZŠ": [
-    7,
+   "DK SŠ": [
+    4,
     0,
     0
    ],
@@ -28,35 +28,11 @@
   },
   "issues": [
    {
-    "title": "Úloha 3",
-    "where": "CK SŠ Ú3",
-    "url": "2007/ck-ss-u3-uloha-3/",
-    "issues": [
-     "rovnaké zadanie ako 2020 DK SŠ Ú1 „Galaxia“"
-    ]
-   },
-   {
     "title": "Úloha 4",
     "where": "CK SŠ Ú4",
     "url": "2007/ck-ss-u4-uloha-4/",
     "issues": [
      "text spomína obrázok, ktorý v zdroji nie je"
-    ]
-   },
-   {
-    "title": "Úloha 5",
-    "where": "CK SŠ Ú5",
-    "url": "2007/ck-ss-u5-uloha-5/",
-    "issues": [
-     "rovnaké zadanie ako 2020 DK SŠ Ú4 „Družica HIPPARCOS“"
-    ]
-   },
-   {
-    "title": "Úloha 6",
-    "where": "CK SŠ Ú6",
-    "url": "2007/ck-ss-u6-uloha-6/",
-    "issues": [
-     "rovnaké zadanie ako 2018 DK SŠ Ú1 „Celková jasnosť hviezd“"
     ]
    }
   ]
@@ -72,13 +48,13 @@
     0,
     0
    ],
-   "DK SŠ": [
-    7,
+   "CK ZŠ": [
+    4,
     0,
     0
    ],
-   "CK ZŠ": [
-    4,
+   "DK SŠ": [
+    7,
     0,
     0
    ],
@@ -89,14 +65,6 @@
    ]
   },
   "issues": [
-   {
-    "title": "Úloha 2",
-    "where": "DK ZŠ Ú2",
-    "url": "2008/dk-zs-u2-uloha-2/",
-    "issues": [
-     "rovnaké zadanie ako 2014 DK ZŠ Ú5 „Obeh kométy“"
-    ]
-   },
    {
     "title": "Zákrytový binárny systém",
     "where": "CK SŠ Ú4",
@@ -113,14 +81,14 @@
    "ZAO"
   ],
   "cells": {
-   "DK SŠ": [
-    7,
-    1,
-    0
-   ],
    "CK ZŠ": [
     4,
     0,
+    0
+   ],
+   "DK SŠ": [
+    7,
+    1,
     0
    ],
    "CK SŠ": [
@@ -146,13 +114,13 @@
    "ZAO"
   ],
   "cells": {
-   "DK SŠ": [
-    7,
+   "CK ZŠ": [
+    3,
     0,
     0
    ],
-   "CK ZŠ": [
-    3,
+   "DK SŠ": [
+    7,
     0,
     0
    ],
@@ -170,13 +138,13 @@
    "ZAO"
   ],
   "cells": {
-   "DK SŠ": [
-    6,
+   "CK ZŠ": [
+    4,
     0,
     0
    ],
-   "CK ZŠ": [
-    4,
+   "DK SŠ": [
+    6,
     0,
     0
    ],
@@ -194,13 +162,13 @@
    "ZAO"
   ],
   "cells": {
-   "DK SŠ": [
-    5,
+   "CK ZŠ": [
+    3,
     0,
     0
    ],
-   "CK ZŠ": [
-    3,
+   "DK SŠ": [
+    5,
     0,
     0
    ],
@@ -218,13 +186,13 @@
    "ZAO"
   ],
   "cells": {
-   "DK SŠ": [
-    7,
+   "CK ZŠ": [
+    3,
     0,
     0
    ],
-   "CK ZŠ": [
-    3,
+   "DK SŠ": [
+    7,
     0,
     0
    ],
@@ -247,13 +215,13 @@
     0,
     0
    ],
-   "DK SŠ": [
-    6,
+   "CK ZŠ": [
+    2,
     0,
     0
    ],
-   "CK ZŠ": [
-    2,
+   "DK SŠ": [
+    6,
     0,
     0
    ],
@@ -265,35 +233,11 @@
   },
   "issues": [
    {
-    "title": "Obeh kométy",
-    "where": "DK ZŠ Ú5",
-    "url": "2014/dk-zs-u5-obeh-komety/",
-    "issues": [
-     "rovnaké zadanie ako 2008 DK ZŠ Ú2 „Úloha 2“"
-    ]
-   },
-   {
-    "title": "Úloha 6",
-    "where": "DK ZŠ Ú6",
-    "url": "2014/dk-zs-u6-uloha-6/",
-    "issues": [
-     "rovnaké zadanie ako 2014 DK SŠ Ú6 „Úloha 6“"
-    ]
-   },
-   {
     "title": "Neznáma planéta",
     "where": "DK SŠ Ú1",
     "url": "2014/dk-ss-u1-neznama-planeta/",
     "issues": [
      "text spomína obrázok, ktorý v zdroji nie je"
-    ]
-   },
-   {
-    "title": "Úloha 6",
-    "where": "DK SŠ Ú6",
-    "url": "2014/dk-ss-u6-uloha-6/",
-    "issues": [
-     "rovnaké zadanie ako 2014 DK ZŠ Ú6 „Úloha 6“"
     ]
    }
   ]
@@ -320,24 +264,7 @@
     0
    ]
   },
-  "issues": [
-   {
-    "title": "Úloha 6",
-    "where": "DK ZŠ Ú6",
-    "url": "2015/dk-zs-u6-uloha-6/",
-    "issues": [
-     "rovnaké zadanie ako 2015 DK SŠ Ú5 „Úloha 5“"
-    ]
-   },
-   {
-    "title": "Úloha 5",
-    "where": "DK SŠ Ú5",
-    "url": "2015/dk-ss-u5-uloha-5/",
-    "issues": [
-     "rovnaké zadanie ako 2015 DK ZŠ Ú6 „Úloha 6“"
-    ]
-   }
-  ]
+  "issues": []
  },
  {
   "year": 2016,
@@ -363,27 +290,11 @@
   },
   "issues": [
    {
-    "title": "Úloha 5",
-    "where": "DK ZŠ Ú5",
-    "url": "2016/dk-zs-u5-uloha-5/",
-    "issues": [
-     "rovnaké zadanie ako 2016 DK SŠ Ú5 „Úloha 5“"
-    ]
-   },
-   {
     "title": "Tepelné rozšírenie spektrálnej čiary",
     "where": "DK SŠ Ú2",
     "url": "2016/dk-ss-u2-tepelne-rozsirenie-spektralnej-ciary/",
     "issues": [
      "bez riešenia"
-    ]
-   },
-   {
-    "title": "Úloha 5",
-    "where": "DK SŠ Ú5",
-    "url": "2016/dk-ss-u5-uloha-5/",
-    "issues": [
-     "rovnaké zadanie ako 2016 DK ZŠ Ú5 „Úloha 5“"
     ]
    }
   ]
@@ -424,16 +335,7 @@
     0
    ]
   },
-  "issues": [
-   {
-    "title": "Celková jasnosť hviezd",
-    "where": "DK SŠ Ú1",
-    "url": "2018/dk-ss-u1-celkova-jasnost-hviezd/",
-    "issues": [
-     "rovnaké zadanie ako 2007 CK SŠ Ú6 „Úloha 6“"
-    ]
-   }
-  ]
+  "issues": []
  },
  {
   "year": 2019,
@@ -472,22 +374,6 @@
    ]
   },
   "issues": [
-   {
-    "title": "Galaxia",
-    "where": "DK SŠ Ú1",
-    "url": "2020/dk-ss-u1-galaxia/",
-    "issues": [
-     "rovnaké zadanie ako 2007 CK SŠ Ú3 „Úloha 3“"
-    ]
-   },
-   {
-    "title": "Družica HIPPARCOS",
-    "where": "DK SŠ Ú4",
-    "url": "2020/dk-ss-u4-druzica-hipparcos/",
-    "issues": [
-     "rovnaké zadanie ako 2007 CK SŠ Ú5 „Úloha 5“"
-    ]
-   },
    {
     "title": "Ďalekohľad",
     "where": "CK SŠ Ú4",
@@ -575,12 +461,12 @@
     0,
     0
    ],
-   "DK SŠ": [
+   "RK ZŠ": [
     5,
     0,
     0
    ],
-   "RK ZŠ": [
+   "DK SŠ": [
     5,
     0,
     0
@@ -618,12 +504,12 @@
     0,
     0
    ],
-   "DK SŠ": [
+   "RK ZŠ": [
     5,
     0,
     0
    ],
-   "RK ZŠ": [
+   "DK SŠ": [
     5,
     0,
     0
@@ -669,13 +555,13 @@
     0,
     0
    ],
-   "DK SŠ": [
-    5,
+   "RK ZŠ": [
+    7,
     0,
     0
    ],
-   "RK ZŠ": [
-    7,
+   "DK SŠ": [
+    5,
     0,
     0
    ],
