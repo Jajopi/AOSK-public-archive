@@ -1,0 +1,8 @@
+# Extra tags for individual problems.
+# Key: "<year>/<problem folder>" as in site/content (e.g. "2026/rk-ss-t1-milkdromeda-ii").
+# Problems from 2007–2023 get their topic automatically from the chapters of the ZAO collection.
+#
+# Recommended vocabulary (topics of the ZAO collection):
+#   Nebeská mechanika, Geometria a čas, Sférická astronómia, Fotometria a spektroskopia,
+#   Optika a detektory, Fyzika hviezd a planét, Kozmológia, Rozsiahle príklady
+problems: {}
