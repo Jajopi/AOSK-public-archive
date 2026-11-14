@@ -6,7 +6,7 @@
 <ul class="years">
 {{ range (where site.Sections "Params.year" "!=" nil).ByWeight }}
   <li><a href="{{ .RelPermalink }}"><strong>{{ .Params.year }}</strong></a>
-    <span class="muted">{{ len (where .RegularPages "Params.label" "!=" nil) }} úloh{{ with .Params.collection }} · zo zbierky{{ end }}</span></li>
+    <span class="muted">{{ len (where .RegularPages "Params.label" "!=" nil) }} úloh</span></li>
 {{ end }}
 </ul>
 {{ with site.GetPage "/overview" }}
