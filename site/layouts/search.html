@@ -37,9 +37,13 @@
     box.innerHTML = "";
     for (const key of ORDER) {
       if (!all[key]) continue;
-      const fs = document.createElement("fieldset");
-      fs.className = Object.keys(all[key]).length > 6 ? "long" : "short";
-      fs.innerHTML = `<legend>${key}</legend><div class="opts"></div>`;
+      // a div, not a <fieldset>: Chromium does not let fieldset content shrink in a flex column
+      // (the long lists then overlap the next groups instead of scrolling)
+      const fs = document.createElement("div");
+      fs.className = "fgroup " + (Object.keys(all[key]).length > 6 ? "long" : "short");
+      fs.setAttribute("role", "group");
+      fs.setAttribute("aria-label", key);
+      fs.innerHTML = `<div class="legend">${key}</div><div class="opts"></div>`;
       const opts = fs.querySelector(".opts");
       for (const v of sortValues(key, Object.keys(all[key]))) {
         const n = counts?.[key]?.[v] ?? 0;

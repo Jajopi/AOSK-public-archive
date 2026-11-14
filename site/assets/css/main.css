@@ -109,25 +109,30 @@ main:has(.search) { max-width: 70rem; }
 .search { display: grid; grid-template-columns: 16rem 1fr; gap: 2rem; align-items: start; }
 .search .filterbox { position: sticky; top: .5rem; }
 .search .filterbox > summary { display: none; }
-.search aside { max-height: calc(100vh - 1rem); display: flex; flex-direction: column; gap: .9rem; overflow: hidden;
+.search aside { max-height: calc(100vh - 1rem); max-height: calc(100dvh - 1rem); display: flex; flex-direction: column; gap: .9rem; overflow: hidden;
   font-size: .92rem; }
-.search fieldset { border: 0; border-top: 2px solid var(--blue); margin: 0; padding: .4rem 0 0;
+.search .fgroup { border-top: 2px solid var(--blue); padding: .4rem 0 0;
   display: flex; flex-direction: column; min-height: 0; }
-.search fieldset.short { flex: none; }                 /* a few values: always fully visible */
-.search fieldset.long { flex: 0 1 auto; min-height: 7rem; }   /* years, topics: shrink and scroll */
-.search fieldset .opts { overflow-y: auto; padding-right: 1.1rem; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.search .fgroup.short { flex: none; }                 /* a few values: always fully visible */
+.search .fgroup.long { flex: 0 1 auto; min-height: 7rem; }   /* years, topics: shrink and scroll */
+.search .fgroup .opts { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 1.1rem; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 @media (max-width: 760px) {
   .search { grid-template-columns: 1fr; gap: 1rem; }
   .search .filterbox { position: static; border: 1px solid var(--line); padding: .4rem .8rem; }
   .search .filterbox > summary { display: list-item; cursor: pointer; color: var(--blue); }
   .search .filterbox[open] > summary { margin-bottom: .6rem; }
   .search aside { max-height: none; }
-  .search fieldset.long .opts { max-height: 12rem; }
+  .search .fgroup.long .opts { max-height: 12rem; }
 }
-.search legend { color: var(--blue); padding-right: .4rem; }
-.search fieldset label { display: flex; gap: .4rem; align-items: baseline; padding: .1rem 0; cursor: pointer; }
-.search fieldset label small { margin-left: auto; color: var(--muted); }
-.search fieldset label.empty { opacity: .4; }
+@media (min-width: 761px) and (max-height: 36rem) {      /* landscape phones: the groups do not fit the screen */
+  .search .filterbox { position: static; }
+  .search aside { max-height: none; }
+  .search .fgroup.long .opts { max-height: 12rem; }
+}
+.search .fgroup .legend { color: var(--blue); margin-bottom: .3rem; }
+.search .fgroup label { display: flex; gap: .4rem; align-items: baseline; padding: .1rem 0; cursor: pointer; }
+.search .fgroup label small { margin-left: auto; color: var(--muted); }
+.search .fgroup label.empty { opacity: .4; }
 .search aside > .button { flex: none; align-self: flex-start; }
 .search input[type=checkbox] { accent-color: var(--pink); }
 .search #q { width: 100%; padding: .55rem .8rem; font: inherit; font-size: 1.05rem; color: var(--fg); background: var(--panel);
