@@ -5,7 +5,6 @@ exactly as Overleaf does, into site/static/pdf/ (committed, linked from the year
 Usage:  python3 tools/build_pdfs.py [--only AO_2026]
 
 * compiled in a scratch copy (.cache/latex/<project>), the sources are never touched
-* parts that must not be published (results with names of students, photo gallery) are removed
 * the result is compressed with Ghostscript (images downsampled to ~150 dpi)
 """
 import argparse
@@ -22,12 +21,11 @@ from aosk import layouts  # noqa: E402
 from build import CACHE, REPO, find_sources  # noqa: E402
 
 OUT = REPO / 'site' / 'static' / 'pdf'
-PRIVATE_PARTS = ('Výsledkové listiny', 'Výsledky', 'Fotogaléria', 'Fotogaleria')
 ZAO_PDF = 'zbierka-AO-2007-2023.pdf'
 
 
 def yearbook(layout, root: Path):
-    """(main file relative to root, extra pdflatex args, function preparing the scratch copy)."""
+    """(main file relative to root, extra pdflatex args, function preparing the scratch copy or None)."""
     name = type(layout).__name__
     if name == 'Layout2024':
         main = next(iter(sorted(root.glob('*[Rr]ocenka*.tex')))).name
@@ -38,32 +36,17 @@ def yearbook(layout, root: Path):
             m = work / 'macros.tex'
             m.write_text(m.read_text(encoding='utf-8').replace(
                 '\\substring[q]{\\filesZoznam}{\\the\\drblyWarning}', '\\substring[q]{\\filesZoznam}{1}'), encoding='utf-8')
-        return main, ['-shell-escape'], prep, [main]
+        return main, ['-shell-escape'], prep
     if name == 'Layout2025':
         main = '99-background/00-main.tex'      # its default target is the yearbook
-        return main, [], None, ['99-background/kompilaty/0-ROCENKA/rocenka-kompilat.tex']
+        return main, [], None
     if name == 'Layout2026':
         main = str(next(iter(sorted((root / 'rocenka').glob('*.tex'),
                                     key=lambda p: (not p.name.upper().startswith('.ROC'), p.name)))).relative_to(root))
-        return main, [], None, [main]
+        return main, [], None
     if name == 'LayoutZAO':
-        return '__MAIN__.tex', [], None, ['__MAIN__.tex']
+        return '__MAIN__.tex', [], None
     return None
-
-
-def strip_private(path: Path):
-    """Remove \\part{Výsledkové listiny}, \\part{Fotogaléria}, … up to the next part or \\end{document}."""
-    s = path.read_text(encoding='utf-8')
-    parts = list(re.finditer(r'\\part\*?\{([^}]*)\}', s))
-    end_doc = s.find('\\end{document}')
-    cuts = []
-    for i, m in enumerate(parts):
-        if any(p.lower() in m.group(1).lower() for p in PRIVATE_PARTS):
-            end = parts[i + 1].start() if i + 1 < len(parts) else (end_doc if end_doc >= 0 else len(s))
-            cuts.append((m.start(), end))
-    for a, b in reversed(cuts):
-        s = s[:a] + s[b:]
-    path.write_text(s, encoding='utf-8')
 
 
 def compile_pdf(name, root, layout, log):
@@ -71,14 +54,12 @@ def compile_pdf(name, root, layout, log):
     if not yb:
         log('%s: unknown project layout, skipping' % name)
         return None
-    main, extra, prep, to_strip = yb
+    main, extra, prep = yb
     work = CACHE / 'latex' / name
     shutil.rmtree(work, ignore_errors=True)
     shutil.copytree(root, work, symlinks=True)
     if prep:
         prep(work)
-    for f in to_strip:
-        strip_private(work / f)
     # Like Overleaf: pdflatex from the project root, repeated until references/TOC are stable.
     # (latexmk is not used: it crashes on some file names in the projects and leaves half-written PDFs.)
     job = 'rocenka'

@@ -22,8 +22,8 @@ sources/<project>/      Overleaf exports (NOT in git)
    │                    solution + metadata, converts LaTeX → Markdown (pandoc + tools/filters/aosk.lua),
    │                    figures → SVG/PNG/JPG
    ▼
-   │  tools/build_pdfs.py  compiles each yearbook (ročenka) with LaTeX like Overleaf, without the results
-   │                       lists and the photo gallery → site/static/pdf/AO-<year>.pdf, zbierka-AO-2007-2023.pdf
+   │  tools/build_pdfs.py  compiles each yearbook (ročenka) with LaTeX like Overleaf, unchanged
+   │                       → site/static/pdf/AO-<year>.pdf, zbierka-AO-2007-2023.pdf
    ▼
 site/content/<year>/<problem>/index.md + figures, site/static/pdf/   (generated, committed to git)
    │  GitHub Actions    hugo (math rendered by KaTeX at build time) → pagefind
@@ -110,12 +110,6 @@ For the site: [Hugo](https://gohugo.io/) ≥ 0.141 (standard edition) and Pagefi
 | `tools/hugo_log.py` | condenses KaTeX's per-symbol warnings in the Hugo output into one summary line |
 | `docs/overleaf-issues.md` | issues found in the Overleaf sources |
 | `site/` | Hugo site (`content/` generated, `pages/` hand-written, `layouts/`, `data/katex.yaml`) |
-
-## Privacy note
-
-Problem pages show only the authors of a problem. Reviewers (correctors), internal notes (`\poznamky`) and
-unused problems are never imported; results lists and the photo gallery are cut out of the yearbook PDFs.
-The PDFs otherwise match the official yearbooks, including their credits pages.
 
 ## License
 
