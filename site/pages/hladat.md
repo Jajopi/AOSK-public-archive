@@ -1,0 +1,4 @@
+---
+title: Hľadať
+layout: search
+---

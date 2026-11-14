@@ -1,0 +1,110 @@
+{{ define "main" }}
+{{- /* Custom search UI on the Pagefind JS API: the filter sidebar is always visible and filters work
+       without a search term (then all matching problems are listed, newest first). */ -}}
+<h1>{{ .Title }}</h1>
+<div class="search">
+  <details class="filterbox" open><summary>Filtre</summary>
+    <aside id="filters" aria-label="Filtre"><p class="muted">Načítavam filtre…</p></aside>
+  </details>
+  <section>
+    <input id="q" type="search" placeholder="Hľadať v zadaniach a riešeniach…" aria-label="Hľadať" autocomplete="off">
+    <p id="status" class="muted"></p>
+    <ol id="results" class="results"></ol>
+    <button id="more" class="button secondary" hidden>Ďalšie výsledky</button>
+  </section>
+</div>
+<noscript>Vyhľadávanie potrebuje JavaScript. Úlohy nájdete aj podľa <a href="{{ "tagy/" | relURL }}">tém</a>.</noscript>
+<script type="module">
+  const pf = await import("{{ "pagefind/pagefind.js" | relURL }}");
+  await pf.options({ excerptLength: 28, baseUrl: "{{ site.Home.RelPermalink }}" });
+  const ORDER = ["Ročník", "Kolo", "Kategória", "Typ", "Téma"];
+  const KOLO = ["Domáce kolo", "Regionálne kolo", "Celoštátne kolo"];
+  const $ = (id) => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const selected = Object.fromEntries(ORDER.map((k) => [k, new Set(params.getAll(k))]));
+  $("q").value = params.get("q") || "";
+  const all = await pf.filters();
+  let results = [], shown = 0, token = 0;
+
+  function sortValues(key, vals) {
+    if (key === "Ročník") return vals.sort((a, b) => b.localeCompare(a));
+    if (key === "Kolo") return vals.sort((a, b) => KOLO.indexOf(a) - KOLO.indexOf(b));
+    return vals.sort((a, b) => a.localeCompare(b, "sk"));
+  }
+
+  function renderFilters(counts) {
+    const box = $("filters");
+    box.innerHTML = "";
+    for (const key of ORDER) {
+      if (!all[key]) continue;
+      const fs = document.createElement("fieldset");
+      fs.className = Object.keys(all[key]).length > 6 ? "long" : "short";
+      fs.innerHTML = `<legend>${key}</legend><div class="opts"></div>`;
+      const opts = fs.querySelector(".opts");
+      for (const v of sortValues(key, Object.keys(all[key]))) {
+        const n = counts?.[key]?.[v] ?? 0;
+        const id = `f-${key}-${v}`;
+        const lab = document.createElement("label");
+        lab.className = n || selected[key].has(v) ? "" : "empty";
+        lab.innerHTML = `<input type="checkbox" id="${CSS.escape(id)}"> <span></span> <small>${n}</small>`;
+        lab.querySelector("span").textContent = v;
+        const cb = lab.querySelector("input");
+        cb.checked = selected[key].has(v);
+        cb.addEventListener("change", () => { cb.checked ? selected[key].add(v) : selected[key].delete(v); run(); });
+        opts.append(lab);
+      }
+      box.append(fs);
+    }
+    if (ORDER.some((k) => selected[k].size)) {
+      const clear = document.createElement("button");
+      clear.className = "button secondary"; clear.textContent = "Zrušiť filtre";
+      clear.onclick = () => { ORDER.forEach((k) => selected[k].clear()); run(); };
+      box.append(clear);
+    }
+  }
+
+  async function run() {
+    const t = ++token;
+    const term = $("q").value.trim();
+    const filters = {};
+    for (const k of ORDER) if (selected[k].size) filters[k] = { any: [...selected[k]] };
+    const opts = { filters };
+    if (!term) opts.sort = { poradie: "asc" };
+    const r = await pf.search(term || null, opts);
+    if (t !== token) return;
+    results = r?.results ?? []; shown = 0;
+    $("results").innerHTML = "";
+    $("status").textContent = `${results.length} ${results.length === 1 ? "úloha" : results.length >= 2 && results.length <= 4 ? "úlohy" : "úloh"}` +
+      (term ? ` pre „${term}“` : "");
+    renderFilters(r?.filters ?? {});
+    await more();
+    const p = new URLSearchParams();
+    if (term) p.set("q", term);
+    for (const k of ORDER) for (const v of selected[k]) p.append(k, v);
+    history.replaceState(null, "", p.toString() ? "?" + p : location.pathname);
+  }
+
+  async function more() {
+    const t = token;
+    const batch = results.slice(shown, shown + 20);
+    const data = await Promise.all(batch.map((x) => x.data()));
+    if (t !== token) return;
+    shown += batch.length;
+    const term = $("q").value.trim();
+    for (const d of data) {
+      const li = document.createElement("li");
+      li.innerHTML = `<a href="${d.url}"></a><div class="muted"></div>` + (term ? `<p class="excerpt">${d.excerpt}</p>` : "");
+      li.querySelector("a").textContent = d.meta.title;
+      li.querySelector(".muted").textContent = d.meta.label || "";
+      $("results").append(li);
+    }
+    $("more").hidden = shown >= results.length;
+  }
+
+  if (matchMedia("(max-width: 760px)").matches) document.querySelector(".filterbox").open = false;
+  let timer;
+  $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 250); });
+  $("more").addEventListener("click", more);
+  run();
+</script>
+{{ end }}

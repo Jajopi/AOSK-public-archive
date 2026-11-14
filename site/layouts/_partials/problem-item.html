@@ -1,0 +1,3 @@
+{{- /* One line in a problem list. Context: page */ -}}
+<li><a href="{{ .RelPermalink }}"><span class="label">{{ .Params.label }}</span> {{ .Title }}</a>
+  <span class="muted">{{ .Params.typeName }}{{ if not .Params.hasSolution }} · bez riešenia{{ end }}</span></li>

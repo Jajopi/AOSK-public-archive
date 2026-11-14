@@ -1,0 +1,17 @@
+{{ define "main" }}
+<nav class="crumbs"><a href="{{ site.Home.RelPermalink }}">Archív</a> › <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></nav>
+<h1>{{ .Title }}</h1>
+<p class="muted">{{ len .Pages }} úloh · <a href="{{ "hladat/" | relURL }}?T%C3%A9ma={{ .Title | urlquery }}">filtrovať vo vyhľadávaní</a></p>
+{{ $years := slice }}
+{{ range .Pages }}{{ $years = $years | append .Params.year }}{{ end }}
+{{ range sort (uniq $years) "value" "desc" }}
+  {{ $y := . }}
+  <h2>{{ $y }}</h2>
+  <ul class="problems">
+  {{ range (where $.Pages "Params.year" $y).ByWeight }}
+    <li><a href="{{ .RelPermalink }}"><span class="label">{{ .Params.round }} {{ .Params.category }} {{ .Params.label }}</span> {{ .Title }}</a>
+      <span class="muted">{{ .Params.typeName }}</span></li>
+  {{ end }}
+  </ul>
+{{ end }}
+{{ end }}

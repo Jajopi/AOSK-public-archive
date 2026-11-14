@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ site.Title }}</h1>
+{{ .Content }}
+<form class="quicksearch" action="{{ "hladat/" | relURL }}"><input type="search" name="q" placeholder="Hľadať v zadaniach a riešeniach…" aria-label="Hľadať"><button>Hľadať</button></form>
+<h2 id="rocniky">Ročníky</h2>
+<ul class="years">
+{{ range (where site.Sections "Params.year" "!=" nil).ByWeight }}
+  <li><a href="{{ .RelPermalink }}"><strong>{{ .Params.year }}</strong></a>
+    <span class="muted">{{ len (where .RegularPages "Params.label" "!=" nil) }} úloh{{ with .Params.collection }} · zo zbierky{{ end }}</span></li>
+{{ end }}
+</ul>
+{{ end }}

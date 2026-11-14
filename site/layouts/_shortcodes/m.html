@@ -1,0 +1,2 @@
+{{- /* Math inside raw HTML (e.g. complex tables): {{< m >}}x^2{{< /m >}} or {{< m block >}}…{{< /m >}} */ -}}
+{{- partial "math.html" (dict "tex" (trim .Inner " \n") "display" (eq (.Get 0) "block") "page" .Page) -}}

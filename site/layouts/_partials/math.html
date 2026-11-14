@@ -1,0 +1,11 @@
+{{- /* Render TeX with KaTeX at build time. Context: dict "tex" "display" "page" */ -}}
+{{- $opts := dict "output" "htmlAndMathml" "displayMode" .display "throwOnError" true "strict" "ignore" "macros" hugo.Data.katex.macros -}}
+{{- with try (transform.ToMath .tex $opts) -}}
+  {{- with .Err -}}
+    {{- warnf "MATHERR %s | %s | %s" $.page.RelPermalink (replaceRE `\s+` " " $.tex) (index (split (string .) "KaTeX parse error:") 1) -}}
+    <code class="math-error">{{ $.tex }}</code>
+  {{- else -}}
+    {{- /* the MathML copy (with TeX source) is for screen readers; keep it out of the search index */ -}}
+    {{- replace .Value `<span class="katex-mathml">` `<span class="katex-mathml" data-pagefind-ignore>` | safeHTML -}}
+  {{- end -}}
+{{- end -}}
