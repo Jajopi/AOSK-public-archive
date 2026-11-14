@@ -12,6 +12,8 @@ Static, searchable archive of the problems and solutions of the Slovak Astronomi
 Only problems that were published are included: for 2024 and later the list of problems is taken from the
 yearbook (ročenka) of the year, for 2007–2023 from the collection book *Zbierka úloh AO* (`sources/ZAO`).
 
+Problems found in the Overleaf projects while building the archive: [docs/overleaf-issues.md](docs/overleaf-issues.md).
+
 ## How it works
 
 ```
@@ -106,12 +108,14 @@ For the site: [Hugo](https://gohugo.io/) ≥ 0.141 (standard edition) and Pagefi
 | `tools/filters/aosk.lua` | pandoc filter: (a)(b)(c) lists, figures, tables |
 | `tools/build_pdfs.py` | compiles the yearbooks / ZAO collection into `site/static/pdf/` |
 | `tools/hugo_log.py` | condenses KaTeX's per-symbol warnings in the Hugo output into one summary line |
+| `docs/overleaf-issues.md` | issues found in the Overleaf sources |
 | `site/` | Hugo site (`content/` generated, `pages/` hand-written, `layouts/`, `data/katex.yaml`) |
 
 ## Privacy note
 
-Problem pages show only the authors of a problem. Reviewers (correctors), internal notes (`\poznamky`),
-unused problems, results lists and the yearbook photo gallery are never imported or published.
+Problem pages show only the authors of a problem. Reviewers (correctors), internal notes (`\poznamky`) and
+unused problems are never imported; results lists and the photo gallery are cut out of the yearbook PDFs.
+The PDFs otherwise match the official yearbooks, including their credits pages.
 
 ## License
 
