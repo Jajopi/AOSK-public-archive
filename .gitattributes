@@ -1,0 +1,2 @@
+# LF everywhere, also in checkouts on Windows (Makefile and shell recipes break with CRLF)
+* text=auto eol=lf

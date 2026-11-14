@@ -82,8 +82,14 @@ changed the existing build is served immediately. Without Docker, `make preview`
 
 The first `docker compose up` builds the image (TeX Live, ~2–3 GB, several minutes). The repository is
 mounted into the container, so the generated files (`site/content`, `.cache`, `site/public`) appear in your
-working copy and are owned by your user (UID/GID 1000 by default; set `UID`/`GID` if yours differ).
-`JOBS=2 docker compose up` limits the number of problems converted in parallel.
+working copy and are owned by your user (the container runs as the owner of the repository directory).
+`JOBS=2 docker compose up` limits the number of problems converted in parallel, `PORT=8081 docker compose up`
+serves on another port.
+
+The setup works with Docker or Podman on any Linux distribution (amd64 or arm64; the volume has the `:z` SELinux
+label for Fedora/RHEL), on macOS and in WSL 2. In WSL, clone the repository inside the Linux file system
+(e.g. `~/…`, not `/mnt/c/…`): it works there too, but file access through `/mnt/c` is many times slower.
+`.gitattributes` keeps LF line endings even when the repository is cloned with Git for Windows.
 
 ## Requirements (for `make content` without Docker)
 

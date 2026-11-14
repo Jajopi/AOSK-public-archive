@@ -17,12 +17,21 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       poppler-utils imagemagick librsvg2-bin ghostscript default-jre-headless fonts-noto-core \
     && rm -rf /var/lib/apt/lists/*
 
-# pandoc (pinned, Debian's is older), Hugo, Pagefind
-RUN curl -sSL -o /tmp/pandoc.deb "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb" \
+# pandoc (pinned, Debian's is older), Hugo, Pagefind – for amd64 or arm64 (Apple Silicon, ARM Linux)
+RUN arch="$(dpkg --print-architecture)" \
+    && case "$arch" in amd64) pf=x86_64 ;; arm64) pf=aarch64 ;; *) echo "unsupported architecture $arch"; exit 1 ;; esac \
+    && curl -fsSL -o /tmp/pandoc.deb "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-${arch}.deb" \
     && dpkg -i /tmp/pandoc.deb && rm /tmp/pandoc.deb \
-    && curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz" | tar xz -C /usr/local/bin hugo \
-    && curl -sSL "https://github.com/Pagefind/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-x86_64-unknown-linux-musl.tar.gz" | tar xz -C /usr/local/bin pagefind \
+    && curl -fsSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${arch}.tar.gz" | tar xz -C /usr/local/bin hugo \
+    && curl -fsSL "https://github.com/Pagefind/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-${pf}-unknown-linux-musl.tar.gz" | tar xz -C /usr/local/bin pagefind \
     && (command -v magick || ln -s "$(command -v convert)" /usr/local/bin/magick)
 
+# Run as the owner of the mounted repository, so generated files belong to the host user whatever their UID
+# (with rootless Docker/Podman the repository appears owned by root, which is the host user there).
+RUN printf '%s\n' '#!/bin/sh' 'set -e' 'u=$(stat -c %u /work) g=$(stat -c %g /work)' \
+      'if [ "$(id -u)" = 0 ] && [ "$u" != 0 ]; then exec setpriv --reuid="$u" --regid="$g" --clear-groups "$@"; fi' \
+      'exec "$@"' > /usr/local/bin/as-owner && chmod +x /usr/local/bin/as-owner
+
 WORKDIR /work
+ENTRYPOINT ["as-owner"]
 CMD ["make", "preview"]
