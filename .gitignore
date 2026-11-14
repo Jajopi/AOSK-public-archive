@@ -1,0 +1,9 @@
+# Overleaf exports (not published; see README)
+/sources/
+# build artefacts
+/.cache/
+/site/public/
+/site/resources/
+/site/.hugo_build.lock
+__pycache__/
+*.tmp.pdf
