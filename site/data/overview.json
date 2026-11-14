@@ -1,0 +1,695 @@
+[
+ {
+  "year": 2007,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    6,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    8,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Úloha 3",
+    "where": "CK SŠ Ú3",
+    "url": "2007/ck-ss-u3-uloha-3/",
+    "issues": [
+     "rovnaké zadanie ako 2020 DK SŠ Ú1 „Galaxia“"
+    ]
+   },
+   {
+    "title": "Úloha 4",
+    "where": "CK SŠ Ú4",
+    "url": "2007/ck-ss-u4-uloha-4/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   },
+   {
+    "title": "Úloha 5",
+    "where": "CK SŠ Ú5",
+    "url": "2007/ck-ss-u5-uloha-5/",
+    "issues": [
+     "rovnaké zadanie ako 2020 DK SŠ Ú4 „Družica HIPPARCOS“"
+    ]
+   },
+   {
+    "title": "Úloha 6",
+    "where": "CK SŠ Ú6",
+    "url": "2007/ck-ss-u6-uloha-6/",
+    "issues": [
+     "rovnaké zadanie ako 2018 DK SŠ Ú1 „Celková jasnosť hviezd“"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2008,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    7,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Úloha 2",
+    "where": "DK ZŠ Ú2",
+    "url": "2008/dk-zs-u2-uloha-2/",
+    "issues": [
+     "rovnaké zadanie ako 2014 DK ZŠ Ú5 „Obeh kométy“"
+    ]
+   },
+   {
+    "title": "Zákrytový binárny systém",
+    "where": "CK SŠ Ú4",
+    "url": "2008/ck-ss-u4-zakrytovy-binarny-system/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2009,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    7,
+    1,
+    0
+   ],
+   "CK ZŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Galileiho dedičstvo",
+    "where": "DK SŠ Ú7",
+    "url": "2009/dk-ss-u7-galileiho-dedicstvo/",
+    "issues": [
+     "bez riešenia"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2010,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    3,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    5,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2011,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    6,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2012,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    3,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2013,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    3,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2014,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    6,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    6,
+    0,
+    0
+   ],
+   "CK ZŠ": [
+    2,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Obeh kométy",
+    "where": "DK ZŠ Ú5",
+    "url": "2014/dk-zs-u5-obeh-komety/",
+    "issues": [
+     "rovnaké zadanie ako 2008 DK ZŠ Ú2 „Úloha 2“"
+    ]
+   },
+   {
+    "title": "Úloha 6",
+    "where": "DK ZŠ Ú6",
+    "url": "2014/dk-zs-u6-uloha-6/",
+    "issues": [
+     "rovnaké zadanie ako 2014 DK SŠ Ú6 „Úloha 6“"
+    ]
+   },
+   {
+    "title": "Neznáma planéta",
+    "where": "DK SŠ Ú1",
+    "url": "2014/dk-ss-u1-neznama-planeta/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   },
+   {
+    "title": "Úloha 6",
+    "where": "DK SŠ Ú6",
+    "url": "2014/dk-ss-u6-uloha-6/",
+    "issues": [
+     "rovnaké zadanie ako 2014 DK ZŠ Ú6 „Úloha 6“"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2015,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    6,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Úloha 6",
+    "where": "DK ZŠ Ú6",
+    "url": "2015/dk-zs-u6-uloha-6/",
+    "issues": [
+     "rovnaké zadanie ako 2015 DK SŠ Ú5 „Úloha 5“"
+    ]
+   },
+   {
+    "title": "Úloha 5",
+    "where": "DK SŠ Ú5",
+    "url": "2015/dk-ss-u5-uloha-5/",
+    "issues": [
+     "rovnaké zadanie ako 2015 DK ZŠ Ú6 „Úloha 6“"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2016,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    4,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    5,
+    1,
+    0
+   ],
+   "CK SŠ": [
+    5,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Úloha 5",
+    "where": "DK ZŠ Ú5",
+    "url": "2016/dk-zs-u5-uloha-5/",
+    "issues": [
+     "rovnaké zadanie ako 2016 DK SŠ Ú5 „Úloha 5“"
+    ]
+   },
+   {
+    "title": "Tepelné rozšírenie spektrálnej čiary",
+    "where": "DK SŠ Ú2",
+    "url": "2016/dk-ss-u2-tepelne-rozsirenie-spektralnej-ciary/",
+    "issues": [
+     "bez riešenia"
+    ]
+   },
+   {
+    "title": "Úloha 5",
+    "where": "DK SŠ Ú5",
+    "url": "2016/dk-ss-u5-uloha-5/",
+    "issues": [
+     "rovnaké zadanie ako 2016 DK ZŠ Ú5 „Úloha 5“"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2017,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    5,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2018,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    3,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Celková jasnosť hviezd",
+    "where": "DK SŠ Ú1",
+    "url": "2018/dk-ss-u1-celkova-jasnost-hviezd/",
+    "issues": [
+     "rovnaké zadanie ako 2007 CK SŠ Ú6 „Úloha 6“"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2019,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2020,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    5,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Galaxia",
+    "where": "DK SŠ Ú1",
+    "url": "2020/dk-ss-u1-galaxia/",
+    "issues": [
+     "rovnaké zadanie ako 2007 CK SŠ Ú3 „Úloha 3“"
+    ]
+   },
+   {
+    "title": "Družica HIPPARCOS",
+    "where": "DK SŠ Ú4",
+    "url": "2020/dk-ss-u4-druzica-hipparcos/",
+    "issues": [
+     "rovnaké zadanie ako 2007 CK SŠ Ú5 „Úloha 5“"
+    ]
+   },
+   {
+    "title": "Ďalekohľad",
+    "where": "CK SŠ Ú4",
+    "url": "2020/ck-ss-u4-dalekohlad/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2021,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    4,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    6,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Rádioteleskop Arecibo",
+    "where": "CK SŠ Ú2",
+    "url": "2021/ck-ss-u2-radioteleskop-arecibo/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2022,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    1,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    4,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2023,
+  "sources": [
+   "ZAO"
+  ],
+  "cells": {
+   "DK SŠ": [
+    3,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    6,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ },
+ {
+  "year": 2024,
+  "sources": [
+   "AO_2024"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "RK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "RK SŠ": [
+    6,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    9,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Gnómon",
+    "where": "DK ZŠ P1",
+    "url": "2024/dk-zs-p1-gnomon/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2025,
+  "sources": [
+   "AO_2025"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "RK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "RK SŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    14,
+    0,
+    0
+   ]
+  },
+  "issues": [
+   {
+    "title": "Originálny názov",
+    "where": "RK ZŠ P1",
+    "url": "2025/rk-zs-p1-originalny-nazov/",
+    "issues": [
+     "text spomína obrázok, ktorý v zdroji nie je"
+    ]
+   },
+   {
+    "title": "Rýchlostná dátovka",
+    "where": "RK SŠ D1",
+    "url": "2025/rk-ss-d1-rychlostna-datovka/",
+    "issues": [
+     "odkaz na neexistujúci obrázok/rovnicu/tabuľku (??)"
+    ]
+   }
+  ]
+ },
+ {
+  "year": 2026,
+  "sources": [
+   "AO_2026"
+  ],
+  "cells": {
+   "DK ZŠ": [
+    5,
+    0,
+    0
+   ],
+   "DK SŠ": [
+    5,
+    0,
+    0
+   ],
+   "RK ZŠ": [
+    7,
+    0,
+    0
+   ],
+   "RK SŠ": [
+    7,
+    0,
+    0
+   ],
+   "CK SŠ": [
+    20,
+    0,
+    0
+   ]
+  },
+  "issues": []
+ }
+]

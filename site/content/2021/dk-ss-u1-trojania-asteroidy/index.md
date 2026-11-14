@@ -1,0 +1,35 @@
+---
+title: Trójania - asteroidy
+year: 2021
+round: DK
+roundName: Domáce kolo
+category: SŠ
+type: teoria
+typeName: Teória
+label: Ú1
+weight: 301
+hasSolution: true
+source: ZAO:I_Zadania/02_GmtrCas/02_SS_DK.tex
+rocniky:
+- '2021'
+kola:
+- Domáce kolo
+kategorie:
+- SŠ
+typy:
+- Teória
+tagy:
+- Geometria a čas
+collection: ZAO
+---
+
+## Zadanie
+
+Určte uhol medzi smerom Jupiter – Slnko a smerom Slnko – Trójania, ak vieme, že vzdialenosť Trójanov od Slnka sa rovná vzdialenosti Jupitera od Slnka a tá sa rovná aj vzdialenosti Trójanov od Jupitera.
+
+<details class="solution">
+<summary>Riešenie</summary>
+
+Trójania, Jupiter a Slnko tvoria vrcholy rovnostranného trojuholníka, takže uhol je $60^{\circ}$.
+
+</details>
