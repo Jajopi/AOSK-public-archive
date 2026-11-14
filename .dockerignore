@@ -1,0 +1,3 @@
+# The image does not copy anything from the repository (it is bind-mounted at runtime),
+# so keep the build context empty – sources/ alone has hundreds of MB.
+*

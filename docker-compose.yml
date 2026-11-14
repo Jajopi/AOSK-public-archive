@@ -1,0 +1,37 @@
+# Local preview of the whole pipeline (see README.md, "Local preview with Docker").
+#   docker compose up                    import → yearbook PDFs → site → search → http://localhost:8080
+#                                        (each step reruns only if its inputs changed, see Makefile)
+#   SKIP_PDF=1 docker compose up         skip compiling the yearbook PDFs (LaTeX, slow)
+#   docker compose run --rm preview make rebuild    force everything to be rebuilt
+#   docker compose --profile dev up dev  live-reloading Hugo server for templates/CSS; http://localhost:1313
+#   docker compose run --rm content      only the import (sources/ → site/content)
+x-common: &common
+  build: .
+  image: aosk-archive
+  user: "${UID:-1000}:${GID:-1000}"   # generated files belong to you, not root
+  working_dir: /work
+  volumes:
+    - .:/work
+  environment:
+    HOME: /tmp
+    JOBS: "${JOBS:-4}"
+    SKIP_PDF: "${SKIP_PDF:-0}"
+
+services:
+  preview:
+    <<: *common
+    ports:
+      - "8080:8080"
+    command: make preview
+
+  dev:
+    <<: *common
+    profiles: [dev]
+    ports:
+      - "1313:1313"
+    command: make serve
+
+  content:
+    <<: *common
+    profiles: [tools]
+    command: make content
