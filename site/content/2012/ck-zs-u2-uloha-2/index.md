@@ -10,15 +10,15 @@ label: Ú2
 weight: 2002
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_ZS_FI.tex
-rocniky:
+years:
 - '2012'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 302
+weight: 3002
 points: '100'
 authors:
 - Samuel Buranský
 hasSolution: true
 source: 2024:DK/SS/Solarna-(ne)konstanta.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

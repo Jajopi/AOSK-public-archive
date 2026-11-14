@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T9
-weight: 2309
+weight: 5009
 points: '160'
 authors:
 - Martin Okánik
 hasSolution: true
 source: 2025:3-CK/1-SS/09-Extinkcia-dinosaurov-2/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

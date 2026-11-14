@@ -10,15 +10,15 @@ label: Ú8
 weight: 2008
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_ZS_FI.tex
-rocniky:
+years:
 - '2007'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

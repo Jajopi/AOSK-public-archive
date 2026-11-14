@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 2303
+weight: 5003
 points: '60'
 authors:
 - J. Švrčková
 hasSolution: true
 source: 2025:3-CK/1-SS/03-Kozmologia/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

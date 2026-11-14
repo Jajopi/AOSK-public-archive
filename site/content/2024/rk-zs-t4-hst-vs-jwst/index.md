@@ -13,15 +13,15 @@ authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:RK/ZS/aTeoria/zzz-HST-vs-JWST.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

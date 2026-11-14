@@ -13,15 +13,15 @@ authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2025:1-DK/0-ZS/03-Leonidy/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

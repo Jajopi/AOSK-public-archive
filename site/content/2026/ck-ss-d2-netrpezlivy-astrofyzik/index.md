@@ -7,22 +7,22 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D2
-weight: 2402
+weight: 5102
 points: '330'
 authors:
 - J. Švrčková
 - V. Slanina
 hasSolution: true
 source: 2026:.SS/¹CK/D-Netrpezlivy-astrofyzik.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

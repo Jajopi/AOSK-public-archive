@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 1301
+weight: 4001
 points: '80'
 authors:
 - R. Lascsák
 - T. Hanáková
 hasSolution: true
 source: 2026:.SS/.RK/MilkdromedaII.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 1401
+weight: 4101
 points: '150'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:2-RK/1-SS/50-Rychlostna-datovka/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 warnings:
 - unknown reference \ref{tab:tabulka-1}

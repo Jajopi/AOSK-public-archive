@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 401
+weight: 3101
 points: '100'
 authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2026:.SS/-DK/Hypatia.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

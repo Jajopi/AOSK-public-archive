@@ -13,15 +13,15 @@ authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:DK/ZS/Kam-dovidi-Kolonica.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

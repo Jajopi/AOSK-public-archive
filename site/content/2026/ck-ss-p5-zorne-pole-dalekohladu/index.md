@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P5
-weight: 2505
+weight: 5205
 points: '75'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2026:.SS/¹CK/P-Pozorovanie-I.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

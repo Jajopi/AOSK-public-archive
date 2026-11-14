@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 2302
+weight: 5002
 points: '60'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:zCK/SS/aTeoria/StarShot.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

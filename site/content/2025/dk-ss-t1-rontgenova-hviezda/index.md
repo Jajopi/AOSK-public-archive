@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 301
+weight: 3001
 points: '50'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:1-DK/1-SS/01-Rentgenova-hviezda/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

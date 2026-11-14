@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T10
-weight: 2310
+weight: 5010
 points: '222'
 authors:
 - R. Lascsák
 - T. Hanáková
 hasSolution: true
 source: 2025:3-CK/1-SS/10-Retrogradny-obeh-Marsu/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 302
+weight: 3002
 points: '70'
 authors:
 - R. Lascsák
 - J. Švrčková
 hasSolution: true
 source: 2025:1-DK/1-SS/02-Velke-americke-zatmenie/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

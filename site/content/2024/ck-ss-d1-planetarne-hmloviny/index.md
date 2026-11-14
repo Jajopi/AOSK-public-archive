@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 2401
+weight: 5101
 points: '200'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:zCK/SS/zDodovka/zzz-D-Planetarne-hmloviny.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

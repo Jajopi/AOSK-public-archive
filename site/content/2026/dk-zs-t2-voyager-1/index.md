@@ -13,15 +13,15 @@ authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2026:-ZS/-DK/Voyager1.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

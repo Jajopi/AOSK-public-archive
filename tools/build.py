@@ -112,16 +112,16 @@ def process_problem(p, src, units, tags, report):
         'type': p.type,
         'typeName': TYPE_NAMES[p.type],
         'label': p.label,
-        'weight': (ROUND_ORDER[p.round] * 1000 + CAT_ORDER[p.category] * 300 + TYPE_ORDER[p.type] * 100 + p.order),
+        'weight': (CAT_ORDER[p.category] * 3000 + ROUND_ORDER[p.round] * 1000 + TYPE_ORDER[p.type] * 100 + p.order),
         'points': p.points or None,
         'authors': p.authors,
         'hasSolution': bool(sol.strip()),
         'source': '%s:%s' % (src.name, p.src),
-        'rocniky': [str(p.year)],
-        'kola': [ROUND_NAMES[p.round]],
-        'kategorie': [p.category],
-        'typy': [TYPE_NAMES[p.type]],
-        'tagy': sorted(set(p.topics + extra)) or [UNCATEGORIZED],
+        'years': [str(p.year)],
+        'rounds': [ROUND_NAMES[p.round]],
+        'categories': [p.category],
+        'types': [TYPE_NAMES[p.type]],
+        'topics': sorted(set(p.topics + extra)) or [UNCATEGORIZED],
     }
     if p.collection:
         front['collection'] = p.collection
@@ -230,6 +230,7 @@ def main():
 def write_year_pages(years, summary):
     consts = summary.get('constants', {})
     intro = summary.get('intro', {})
+    written = set()
     for y, info in sorted(years.items()):
         srcs = sorted(info['sources'])
         body = ''
@@ -243,12 +244,13 @@ def write_year_pages(years, summary):
         for key, md in consts.items():
             name, cat = key.split('|')
             if name in srcs:
-                slug = 'konstanty' + ('-' + {'SŠ': 'ss', 'ZŠ': 'zs'}[cat] if cat else '')
+                slug = 'constants' + ('-' + {'SŠ': 'ss', 'ZŠ': 'zs'}[cat] if cat else '')
                 cdir = CACHE / 'const' / ('%s-%s' % (name, cat or 'all'))
                 if name == 'ZAO':
-                    path = CONTENT / 'konstanty' / 'zbierka' / 'index.md'
-                    if path.exists():
+                    path = CONTENT / 'constants' / 'collection' / 'index.md'
+                    if path in written:      # one page for all ZAO years
                         continue
+                    written.add(path)
                     write_page(path, {'title': 'Zoznam konštánt (Zbierka úloh AO 2007–2023)'}, md)
                 else:
                     path = CONTENT / str(y) / slug / 'index.md'
@@ -260,8 +262,9 @@ def write_year_pages(years, summary):
                         shutil.copyfile(f, path.parent / f.name)
     for k, v in summary.get('intro', {}).items():
         if k == 'ZAO':
-            write_page(CONTENT / 'zbierka.md', {'title': 'Zbierka úloh AO 2007–2023 – úvod'}, v)
-    # overview of what exists / is missing / duplicated
+            write_page(CONTENT / 'collection.md', {'title': 'Zbierka úloh AO 2007–2023 – úvod'}, v)
+    # problems with the same statement elsewhere (one problem for both categories, or reused in a later year):
+    # a notice on those problem pages only (data/duplicates.json, layouts/_partials/problem-meta.html)
     by_sig = {}
     for info in years.values():
         for f in info['problems']:

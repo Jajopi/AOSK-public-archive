@@ -1,11 +1,11 @@
 <dl class="meta">
   <div><dt>Ročník</dt><dd><a href="{{ .Parent.RelPermalink }}">{{ .Params.year }}</a></dd></div>
-  <div><dt>Kolo</dt><dd>{{ .Params.roundName }}</dd></div>
   <div><dt>Kategória</dt><dd>{{ .Params.category }}</dd></div>
+  <div><dt>Kolo</dt><dd>{{ .Params.roundName }}</dd></div>
   <div><dt>Typ</dt><dd>{{ .Params.typeName }}</dd></div>
   {{ with .Params.points }}<div><dt>Body</dt><dd>{{ . }}</dd></div>{{ end }}
   {{ with .Params.authors }}<div><dt>Autor</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
-  {{ with .GetTerms "tagy" }}<div><dt>Témy</dt><dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd></div>{{ end }}
+  {{ with .GetTerms "topics" }}<div><dt>Témy</dt><dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd></div>{{ end }}
 </dl>
 {{- with index hugo.Data.duplicates (printf "%d/%s" .Params.year .File.ContentBaseName) }}
 <p class="notice">Rovnaké zadanie bolo použité aj

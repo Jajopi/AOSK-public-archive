@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 1501
+weight: 4201
 points: '150'
 authors:
 - Ondrej Juhás
 hasSolution: true
 source: 2025:2-RK/1-SS/90-Prakticka/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

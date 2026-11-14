@@ -13,15 +13,15 @@ authors:
 - Samuel Buranský
 hasSolution: true
 source: 2024:DK/ZS/Zo-Zeme-na-Mesiac.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

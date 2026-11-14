@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 1303
+weight: 4003
 points: '110'
 authors:
 - Vladimír Slanina
 hasSolution: true
 source: 2026:.SS/.RK/Oslava-pristatia-na-Marse.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

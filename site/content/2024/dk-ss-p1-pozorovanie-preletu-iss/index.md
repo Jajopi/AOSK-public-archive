@@ -7,22 +7,22 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 501
+weight: 3201
 points: '100'
 authors:
 - S. Amrich
 - R. Lascsák
 hasSolution: true
 source: 2024:DK/SS/zzz-Prakticka-SS.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

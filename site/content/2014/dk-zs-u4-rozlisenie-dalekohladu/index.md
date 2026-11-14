@@ -10,15 +10,15 @@ label: Ú4
 weight: 4
 hasSolution: true
 source: ZAO:I_Zadania/05_OptikDek/05_ZS_DK.tex
-rocniky:
+years:
 - '2014'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Optika a detektory
 collection: ZAO
 ---

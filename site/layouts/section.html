@@ -7,10 +7,10 @@
   {{ if fileExists (printf "static/%s" $pdf) }}
   <a class="button" href="{{ $pdf | relURL }}">{{ if .Params.collection }}Zbierka úloh AO 2007–2023 (PDF){{ else }}Ročenka {{ .Params.year }} (PDF){{ end }}</a>
   {{ end }}
-  {{ range slice "konstanty" "konstanty-ss" "konstanty-zs" }}{{ with site.GetPage (printf "/%v/%s" $.Params.year .) }}<a class="button secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
-  {{ if .Params.collection }}<a class="button secondary" href="{{ "konstanty/zbierka/" | relURL }}">Zoznam konštánt</a>{{ end }}
+  {{ range slice "constants" "constants-zs" "constants-ss" }}{{ with site.GetPage (printf "/%v/%s" $.Params.year .) }}<a class="button secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
+  {{ if .Params.collection }}<a class="button secondary" href="{{ "constants/collection/" | relURL }}">Zoznam konštánt</a>{{ end }}
 </p>
 {{ with .Content }}<details class="intro"><summary>Úvod ročenky</summary>{{ . }}</details>{{ end }}
-{{ if .Params.collection }}<p class="note">Úlohy tohto ročníka pochádzajú zo <a href="{{ "zbierka/" | relURL }}">Zbierky úloh AO 2007–2023</a>; v zbierke chýbajú niektoré úlohy a riešenia (pozri <a href="{{ "prehlad/" | relURL }}">prehľad</a>).</p>{{ end }}
+{{ if .Params.collection }}<p class="note">Úlohy tohto ročníka pochádzajú zo <a href="{{ "collection/" | relURL }}">Zbierky úloh AO 2007–2023</a>; v zbierke chýbajú niektoré úlohy a riešenia (pozri <a href="{{ site.Home.RelPermalink }}#overview">prehľad</a>).</p>{{ end }}
 {{ partial "year-problems.html" . }}
 {{ end }}

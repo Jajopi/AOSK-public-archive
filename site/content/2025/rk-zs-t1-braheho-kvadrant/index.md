@@ -13,15 +13,15 @@ authors:
 - Samuel Buranský
 hasSolution: true
 source: 2025:2-RK/0-ZS/02-Braheho-kvadrant/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -1,14 +1,14 @@
-{{- /* Problems of one year grouped by round and category. Context: section page */ -}}
+{{- /* Problems of one year grouped by category, then round. Context: section page */ -}}
 {{- $pages := where .RegularPages "Params.label" "!=" nil -}}
-{{- range $round := slice "DK" "RK" "CK" -}}
-  {{- $rp := where $pages "Params.round" $round -}}
-  {{- with $rp -}}
-  <h2>{{ (index . 0).Params.roundName }}</h2>
+{{- range $cat := site.Params.categories -}}
+  {{- $cp := where $pages "Params.category" $cat -}}
+  {{- with $cp -}}
+  <h2>Kategória {{ $cat }}</h2>
   <div class="columns">
-  {{- range $cat := slice "ZŠ" "SŠ" -}}
-    {{- with where $rp "Params.category" $cat -}}
-    <section>
-      <h3>Kategória {{ $cat }}</h3>
+  {{- range $round := site.Params.rounds -}}
+    {{- with where $cp "Params.round" $round -}}
+    <section id="{{ partial "group-id.html" (dict "cat" $cat "round" $round) }}">
+      <h3>{{ (index . 0).Params.roundName }}</h3>
       <ul class="problems">{{ range .ByWeight }}{{ partial "problem-item.html" . }}{{ end }}</ul>
     </section>
     {{- end -}}

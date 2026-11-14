@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú2
-weight: 302
+weight: 3002
 hasSolution: true
 source: ZAO:I_Zadania/06_FyzHaP/06_SS_DK.tex
-rocniky:
+years:
 - '2015'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fyzika hviezd a planét
 collection: ZAO
 ---

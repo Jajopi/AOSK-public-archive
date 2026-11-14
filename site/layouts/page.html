@@ -8,7 +8,7 @@
     <span data-pagefind-filter="Kolo">{{ .Params.roundName }}</span>
     <span data-pagefind-filter="Kategória">{{ .Params.category }}</span>
     <span data-pagefind-filter="Typ">{{ .Params.typeName }}</span>
-    {{ range .Params.tagy }}<span data-pagefind-filter="Téma">{{ . }}</span>{{ end }}
+    {{ range .Params.topics }}<span data-pagefind-filter="Téma">{{ . }}</span>{{ end }}
     <span data-pagefind-meta="label">{{ .Params.year }} · {{ .Params.roundName }} {{ .Params.category }} · {{ .Params.typeName }}</span>
     <span data-pagefind-meta="title">{{ .Params.year }} {{ .Params.round }} {{ .Params.category }} {{ .Params.label }} – {{ .Title }}</span>
   </div>

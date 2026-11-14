@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 2302
+weight: 5002
 points: '20'
 authors:
 - Samuel Buranský
 hasSolution: true
 source: 2026:.SS/¹CK/Kratky-zivot-castice.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

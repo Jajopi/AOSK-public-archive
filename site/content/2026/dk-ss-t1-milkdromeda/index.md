@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 301
+weight: 3001
 points: '60'
 authors:
 - Terézia Hanáková
 - Radovan Lascsák
 hasSolution: true
 source: 2026:.SS/-DK/Milkdromeda-I.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

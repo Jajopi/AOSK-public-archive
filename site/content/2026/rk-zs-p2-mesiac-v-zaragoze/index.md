@@ -13,15 +13,15 @@ authors:
 - Radovan Lascsák
 hasSolution: true
 source: 2026:-ZS/.RK/Mesiac-v-Zaragoze.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

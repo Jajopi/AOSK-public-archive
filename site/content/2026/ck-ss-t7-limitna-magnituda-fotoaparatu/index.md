@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T7
-weight: 2307
+weight: 5007
 points: '75'
 authors:
 - V. Slanina
 hasSolution: true
 source: 2026:.SS/¹CK/Limitna-magnituda.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

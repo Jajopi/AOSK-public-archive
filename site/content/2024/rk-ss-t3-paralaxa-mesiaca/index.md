@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 1303
+weight: 4003
 points: '80'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:RK/SS/aTeoria/Paralaxa-Mesiaca.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

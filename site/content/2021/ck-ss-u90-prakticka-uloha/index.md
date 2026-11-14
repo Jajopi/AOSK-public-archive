@@ -7,18 +7,18 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: Ú90
-weight: 2590
+weight: 5290
 hasSolution: true
 source: ZAO:I_Zadania/10_Prakticke/10_SS_FI.tex
-rocniky:
+years:
 - '2021'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

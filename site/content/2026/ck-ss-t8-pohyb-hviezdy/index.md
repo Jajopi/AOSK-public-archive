@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T8
-weight: 2308
+weight: 5008
 points: '80'
 authors:
 - Tomáš Kubrický
 hasSolution: true
 source: 2026:.SS/¹CK/Pohyb-hviezdy.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

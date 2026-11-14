@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T4
-weight: 1304
+weight: 4004
 points: '130'
 authors:
 - Radovan Lascsák
 hasSolution: true
 source: 2026:.SS/.RK/17-listopad.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

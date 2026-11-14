@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 303
+weight: 3003
 points: '80'
 authors:
 - Lukáš Hudák
 hasSolution: true
 source: 2025:1-DK/1-SS/03-Pevne-kosti/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

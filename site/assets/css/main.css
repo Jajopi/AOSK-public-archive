@@ -101,6 +101,8 @@ th { background: var(--panel); }
 code.math-error { color: var(--pink); }
 table.overview td, table.overview th { text-align: center; }
 table.overview td:last-child { text-align: left; font-size: .85rem; }
+table.overview .group { border-left: 2px solid var(--blue); }
+table.overview td:not(:last-child) > a { display: inline-block; min-width: 1.6em; }
 ul.issues { margin: 0; padding-left: 1rem; }
 ul.issues li { margin: .15rem 0; }
 

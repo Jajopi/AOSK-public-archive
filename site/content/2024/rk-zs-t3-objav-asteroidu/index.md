@@ -13,15 +13,15 @@ authors:
 - Samuel Buranský
 hasSolution: true
 source: 2024:RK/ZS/aTeoria/Objav_asteroidu.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

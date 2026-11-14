@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T4
-weight: 2304
+weight: 5004
 points: '80'
 authors:
 - Ondrej Juhás
 hasSolution: true
 source: 2024:zCK/SS/aTeoria/zz-Betelgeuze.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -13,15 +13,15 @@ authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:RK/ZS/Prakticka/zzz-P-Mraky-v-slepej-mape.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

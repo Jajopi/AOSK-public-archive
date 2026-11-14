@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 2303
+weight: 5003
 points: '60'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:zCK/SS/aTeoria/z-Datovanie-Voyageru.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,18 +7,18 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: Ú7
-weight: 507
+weight: 3207
 hasSolution: true
 source: ZAO:I_Zadania/10_Prakticke/10_SS_DK.tex
-rocniky:
+years:
 - '2012'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

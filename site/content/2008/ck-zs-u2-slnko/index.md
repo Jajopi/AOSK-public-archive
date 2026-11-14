@@ -10,15 +10,15 @@ label: Ú2
 weight: 2002
 hasSolution: true
 source: ZAO:I_Zadania/06_FyzHaP/06_ZS_FI.tex
-rocniky:
+years:
 - '2008'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fyzika hviezd a planét
 collection: ZAO
 ---

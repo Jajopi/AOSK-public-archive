@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú5
-weight: 305
+weight: 3005
 hasSolution: true
 source: ZAO:I_Zadania/03_Sferika/03_SS_DK.tex
-rocniky:
+years:
 - '2007'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Sférická astronómia
 collection: ZAO
 ---

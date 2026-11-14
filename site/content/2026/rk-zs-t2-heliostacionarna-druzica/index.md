@@ -13,15 +13,15 @@ authors:
 - Samuel Buranský
 hasSolution: true
 source: 2026:-ZS/.RK/Heliostacionarna-druzica.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

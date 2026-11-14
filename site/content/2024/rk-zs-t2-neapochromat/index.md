@@ -13,15 +13,15 @@ authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:RK/ZS/aTeoria/Neapochromat.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

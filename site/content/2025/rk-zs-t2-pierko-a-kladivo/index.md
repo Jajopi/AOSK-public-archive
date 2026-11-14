@@ -13,15 +13,15 @@ authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2025:2-RK/0-ZS/01-Pierko-a-kladivo/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

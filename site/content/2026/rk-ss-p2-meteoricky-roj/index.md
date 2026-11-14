@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P2
-weight: 1502
+weight: 4202
 points: '100'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2026:.SS/.RK/Meteoricky-roj.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

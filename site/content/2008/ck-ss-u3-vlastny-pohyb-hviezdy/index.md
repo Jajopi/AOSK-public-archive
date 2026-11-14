@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú3
-weight: 2303
+weight: 5003
 hasSolution: true
 source: ZAO:I_Zadania/02_GmtrCas/02_SS_FI.tex
-rocniky:
+years:
 - '2008'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Geometria a čas
 collection: ZAO
 ---

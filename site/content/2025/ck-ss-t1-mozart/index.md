@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 2301
+weight: 5001
 points: '60'
 authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2025:3-CK/1-SS/01-Mozart/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -12,13 +12,17 @@ disableKinds = ["rss"]
 [params]
   description = "Zadania a vzorové riešenia úloh Astronomickej olympiády na Slovensku"
   website = "https://www.astronomickaolympiada.sk/"
+  # order of the groups everywhere (year pages, overview table): category first, then round
+  # (the order of problems inside a group comes from `weight`, tools/build.py CAT_ORDER/ROUND_ORDER)
+  categories = ["ZŠ", "SŠ"]
+  rounds = ["DK", "RK", "CK"]
 
-[taxonomies]
-  rocnik = "rocniky"
-  kolo = "kola"
-  kategoria = "kategorie"
-  typ = "typy"
-  tag = "tagy"
+[taxonomies]              # URLs in English (/topics/…), titles in pages/<plural>/_index.md
+  year = "years"
+  round = "rounds"
+  category = "categories"
+  type = "types"
+  topic = "topics"
 
 [markup.goldmark.renderer]
   unsafe = true          # generated content contains HTML (lists with (a) labels, figures, <details>)

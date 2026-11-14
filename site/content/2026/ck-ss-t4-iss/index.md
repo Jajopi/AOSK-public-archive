@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T4
-weight: 2304
+weight: 5004
 points: '50'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2026:.SS/¹CK/ISS.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

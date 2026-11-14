@@ -10,15 +10,15 @@ label: Ú4
 weight: 4
 hasSolution: true
 source: ZAO:I_Zadania/06_FyzHaP/06_ZS_DK.tex
-rocniky:
+years:
 - '2016'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fyzika hviezd a planét
 collection: ZAO
 ---

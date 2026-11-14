@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P2
-weight: 2502
+weight: 5202
 points: '125'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2026:.SS/¹CK/P-Dobrodruh.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

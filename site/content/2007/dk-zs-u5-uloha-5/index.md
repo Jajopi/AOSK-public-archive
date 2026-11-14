@@ -10,15 +10,15 @@ label: Ú5
 weight: 5
 hasSolution: true
 source: ZAO:I_Zadania/08_Rozsiahle/08_ZS_DK.tex
-rocniky:
+years:
 - '2007'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Rozsiahle príklady
 collection: ZAO
 ---

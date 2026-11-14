@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 301
+weight: 3001
 points: '100'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:DK/SS/Let-do-Andromedy.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

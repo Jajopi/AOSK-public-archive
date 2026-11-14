@@ -1,6 +1,7 @@
 # KaTeX macros used when rendering math (layouts/_markup/render-passthrough.html).
 # Add a line here when a source uses a macro KaTeX does not know (build prints "MATHERR").
 macros:
+  "\\eV": "\\textrm{eV}"            # ZAO _macros_.tex
   # Sun, Earth, Moon and planets (the sources use the mathabx/wasysym symbols)
   "\\Sun": "\\odot"
   "\\Earth": "\\oplus"

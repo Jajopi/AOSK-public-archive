@@ -10,15 +10,15 @@ label: Ú6
 weight: 206
 hasSolution: true
 source: ZAO:I_Zadania/10_Prakticke/10_ZS_DK.tex
-rocniky:
+years:
 - '2015'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

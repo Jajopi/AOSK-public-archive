@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 2303
+weight: 5003
 points: '40'
 authors:
 - S. Buranský
 - D. Kráľ
 hasSolution: true
 source: 2026:.SS/¹CK/Kratkozraky-pozorovatel.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

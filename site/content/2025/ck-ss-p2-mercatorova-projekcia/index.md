@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P2
-weight: 2502
+weight: 5202
 points: '250'
 authors:
 - Ondrej Juhás
 hasSolution: true
 source: 2025:3-CK/1-SS/92-Prakticka/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

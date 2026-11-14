@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú5
-weight: 2305
+weight: 5005
 hasSolution: true
 source: ZAO:I_Zadania/06_FyzHaP/06_SS_FI.tex
-rocniky:
+years:
 - '2010'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fyzika hviezd a planét
 collection: ZAO
 ---

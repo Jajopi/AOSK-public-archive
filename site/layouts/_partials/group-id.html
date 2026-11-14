@@ -1,0 +1,2 @@
+{{- /* Anchor of a category+round group on a year page, e.g. "zs-dk". Context: dict cat, round */ -}}
+{{- printf "%s-%s" (lower (replace .cat "Š" "s")) (lower .round) -}}

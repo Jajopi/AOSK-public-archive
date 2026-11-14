@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú4
-weight: 2304
+weight: 5004
 hasSolution: true
 source: ZAO:I_Zadania/02_GmtrCas/02_SS_FI.tex
-rocniky:
+years:
 - '2011'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Geometria a čas
 collection: ZAO
 ---

@@ -13,15 +13,15 @@ authors:
 - Radovan Lascsák
 hasSolution: true
 source: 2026:-ZS/-DK/Luna.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

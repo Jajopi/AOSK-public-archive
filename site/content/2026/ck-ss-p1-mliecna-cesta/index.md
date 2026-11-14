@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 2501
+weight: 5201
 points: '125'
 authors:
 - Samuel Buranský
 hasSolution: true
 source: 2026:.SS/¹CK/P-Mliecna-draha.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

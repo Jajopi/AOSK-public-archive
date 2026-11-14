@@ -10,15 +10,15 @@ label: Ú1
 weight: 2001
 hasSolution: true
 source: ZAO:I_Zadania/05_OptikDek/05_ZS_FI.tex
-rocniky:
+years:
 - '2013'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Optika a detektory
 collection: ZAO
 ---

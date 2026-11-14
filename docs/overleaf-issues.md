@@ -1,8 +1,8 @@
 # Issues found in the Overleaf projects
 
 Found while building the archive (state of the sources from November 2026). The pipeline works around all of them,
-but they should be fixed in Overleaf. Per-problem issues (missing solutions, figures, references, duplicates) are
-also listed live in the last column of the [overview page](https://jajopi.github.io/AOSK-public-archive/prehlad/).
+but they should be fixed in Overleaf. Per-problem issues (missing solutions, figures, references) are
+also listed live in the last column of the [overview on the home page](https://jajopi.github.io/AOSK-public-archive/#overview).
 
 ## AO 2024
 - `\loadAllPriklady` lists folders with Java (texosquery) and cuts off a fixed 105/106 characters

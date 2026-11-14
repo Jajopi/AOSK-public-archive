@@ -10,15 +10,15 @@ label: Ú2
 weight: 2002
 hasSolution: true
 source: ZAO:I_Zadania/02_GmtrCas/02_ZS_FI.tex
-rocniky:
+years:
 - '2007'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Geometria a čas
 collection: ZAO
 ---

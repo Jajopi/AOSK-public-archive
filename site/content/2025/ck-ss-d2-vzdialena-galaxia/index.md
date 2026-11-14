@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D2
-weight: 2402
+weight: 5102
 points: '335'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:3-CK/1-SS/52-Farebna-mapa/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 
@@ -31,7 +31,7 @@ Predstavte si, že pozorujete vzdialenú galaxiu. Ako ďaleko ale vlastne vzdial
 
 **Funkcia svietivosti pre planetárne hmloviny (PNLF)**
 
-Prvá metóda využíva fotometriu planetárnych hmlovín, tak ako je popísaná v článku [Extragalactic Distances from Planetary Nebulae](#https://arxiv.org/pdf/astro-ph/0301279) [^1]. Veľkou výhodou je, že sa celé meranie dá vykonať s pomocou iba dvojice fotografií. Jedna fotografia (úzkopásmová) sa získa v typickej spektrálnej čiare, v ktorej emitujú planetárne hmloviny. Obvykle je to čiara \[O III\], teda zakázaná čiara dvakrát ionizovaného kyslíka. Druhá fotografia je získaná v kontinuu. Následne sa od úzkopásmovej snímky odčíta snímka v kontinuu. Detaily merania nie sú dôležité, zásadné ale je, že planetárne hmloviny nie sú samé o sebe štandardné sviečky (objekt alebo jav s vyžarovanou energiou, ktorú poznáme alebo vieme určiť). Maximálna teoretická svietivosť planetárnej hmloviny už štandardnou sviečkou je. Ako ale odhaliť túto maximálnu teoretickú svietivosť? Empiricky bolo zistené, že ak si vytvoríme histogram počtu planetárnych hmlovín s konkrétnymi hodnotami absolútnej svietivosti $M$, potom graf vykazuje funkčnú závislosť 
+Prvá metóda využíva fotometriu planetárnych hmlovín, tak ako je popísaná v článku [Extragalactic Distances from Planetary Nebulae](https://arxiv.org/pdf/astro-ph/0301279) [^1]. Veľkou výhodou je, že sa celé meranie dá vykonať s pomocou iba dvojice fotografií. Jedna fotografia (úzkopásmová) sa získa v typickej spektrálnej čiare, v ktorej emitujú planetárne hmloviny. Obvykle je to čiara \[O III\], teda zakázaná čiara dvakrát ionizovaného kyslíka. Druhá fotografia je získaná v kontinuu. Následne sa od úzkopásmovej snímky odčíta snímka v kontinuu. Detaily merania nie sú dôležité, zásadné ale je, že planetárne hmloviny nie sú samé o sebe štandardné sviečky (objekt alebo jav s vyžarovanou energiou, ktorú poznáme alebo vieme určiť). Maximálna teoretická svietivosť planetárnej hmloviny už štandardnou sviečkou je. Ako ale odhaliť túto maximálnu teoretickú svietivosť? Empiricky bolo zistené, že ak si vytvoríme histogram počtu planetárnych hmlovín s konkrétnymi hodnotami absolútnej svietivosti $M$, potom graf vykazuje funkčnú závislosť 
 
 $$
 N(M) \;\propto\; \, e^{0,307M}\cdot\,\left(  1 - e^{3(M_{PNLF}-M)} \right) \,. \tag{1}
@@ -139,7 +139,7 @@ $$
 
 **Funkcia svietivosti pre guľové hviezdokopy (GCLF)**
 
-Obdobne ako pri planetárnych hmlovinách, ani guľové hviezdokopy nemôžeme považovať za štandardné sviečky. Experimentálne sa ale zistilo, že keď urobíme štatistiku na známych vzdialenostiach, zistíme, že najpravdepodobnejšia absolútna svietivosť guľovej hviezdokopy je rovná hodnote $M_{GCLF}=-7{,}56\,\mathrm{mag}$. Niekedy je označovaná aj ako TOM, z anglického ”Turn Over Magnitude”. Práve táto absolútna svietivosť už vykazuje dostatočnú regularitu, aby sme o nej mohli hovoriť ako o štandardnej sviečke, tak ako je popísané v článku [The Globular Cluster Luminosity Function: New Progress in Understanding an Old Distance Indicator](#https://arxiv.org/pdf/astro-ph/0304318) [^2].
+Obdobne ako pri planetárnych hmlovinách, ani guľové hviezdokopy nemôžeme považovať za štandardné sviečky. Experimentálne sa ale zistilo, že keď urobíme štatistiku na známych vzdialenostiach, zistíme, že najpravdepodobnejšia absolútna svietivosť guľovej hviezdokopy je rovná hodnote $M_{GCLF}=-7{,}56\,\mathrm{mag}$. Niekedy je označovaná aj ako TOM, z anglického ”Turn Over Magnitude”. Práve táto absolútna svietivosť už vykazuje dostatočnú regularitu, aby sme o nej mohli hovoriť ako o štandardnej sviečke, tak ako je popísané v článku [The Globular Cluster Luminosity Function: New Progress in Understanding an Old Distance Indicator](https://arxiv.org/pdf/astro-ph/0304318) [^2].
 
 **Úloha 2**
 
@@ -147,7 +147,7 @@ Obdobne ako pri planetárnych hmlovinách, ani guľové hviezdokopy nemôžeme p
 
 **Tully-Fisher**
 
-Ďalší spôsob, ako zistiť vzdialenosť galaxií, je na základe merania rotačnej rýchlosti $v_{\hspace{0.5pt}T-F}$ disku galaxie. Táto metóda bola prvykrát predostrená v článku [A new method of determining distances to galaxies](#https://ui.adsabs.harvard.edu/abs/1977A&A....54..661T) [^3] dvojicou autorov R. Brent Tully a J. Richard Fisher, podľa ktorých sa táto metóda dodnes nazýva. Empiricky zistili, že svietivosť galaxie $L$ vykazuje približnú závislosť ako $L\;\propto\; v_{\hspace{0.5pt}T-F}^4$. Samozrejme, je ešte potrebné prejsť do magnitúd a celý vzťah správne nakalibrovať. My budeme používať výraz v tvare 
+Ďalší spôsob, ako zistiť vzdialenosť galaxií, je na základe merania rotačnej rýchlosti $v_{\hspace{0.5pt}T-F}$ disku galaxie. Táto metóda bola prvykrát predostrená v článku [A new method of determining distances to galaxies](https://ui.adsabs.harvard.edu/abs/1977A&A....54..661T) [^3] dvojicou autorov R. Brent Tully a J. Richard Fisher, podľa ktorých sa táto metóda dodnes nazýva. Empiricky zistili, že svietivosť galaxie $L$ vykazuje približnú závislosť ako $L\;\propto\; v_{\hspace{0.5pt}T-F}^4$. Samozrejme, je ešte potrebné prejsť do magnitúd a celý vzťah správne nakalibrovať. My budeme používať výraz v tvare 
 
 $$
 m-M = 21,1 + 3,7\cdot \log_{10}{\left(  v_{\hspace{0.5pt}T-F} \left[\mathrm{km}\,{\mathrm{s}}^{-1}\right] \right)}    \, . \tag{2}
@@ -178,7 +178,7 @@ Zároveň nezabudnite opraviť dané merania o inklináciu galaxie. To je velič
 
 **Megamaser**
 
-Veľmi zaujímavým spôsobom merania vzdialeností je analýza spektier žiarenia emitovaného v rádiovej oblasti z okolia aktívnych galaktických centier, tak ako je popísané v článku [The megamaser cosmology project. I. very long baseline interferometric observations of UGC 3789](#https://iopscience.iop.org/article/10.1088/0004-637X/695/1/287) [^4]. Hmota, ktorá sa nabaľuje na supermasívnu čiernu dieru v centre takejto galaxie, sa nachádza vo vybudenom stave (dochádza k tzv. pumping-u) a tak je do okolia schopná vyžarovať ako obrovský mikrovlnný laser. Vyžarovaná energia je obrovská, preto sa maser dá jednoducho pozorovať. Zároveň je jeho emisná čiara úzka a tak ľahko rozoznateľná. Najčastejšie sa pozoruje vyžarovanie na čiare $18\,\mathrm{cm}$ $\mathrm{OH}$, alebo $1{,}35\,\mathrm{cm}$ $\mathrm{H_2O}$. Z tohto spektra vieme zistiť rýchlosť hmoty okolo čiernej diery, a ak získame takéto spektrum pre rôzne pozície v rámci centra galaxie, tak aj veľkosť oblaku tohto materiálu. Z opakovaných pozorovaní vieme zistiť zrýchlenie pádu hmoty na čiernu dieru $a = 15{,}5\,\mathrm{km}\,{\mathrm{s}}^{-1}\,{\mathrm{rok}}^{-1}$. Kombináciou jednoduchých závislostí prichádzame k výslednému vzťahu pre vzdialenosť pozorovanej galaxie 
+Veľmi zaujímavým spôsobom merania vzdialeností je analýza spektier žiarenia emitovaného v rádiovej oblasti z okolia aktívnych galaktických centier, tak ako je popísané v článku [The megamaser cosmology project. I. very long baseline interferometric observations of UGC 3789](https://iopscience.iop.org/article/10.1088/0004-637X/695/1/287) [^4]. Hmota, ktorá sa nabaľuje na supermasívnu čiernu dieru v centre takejto galaxie, sa nachádza vo vybudenom stave (dochádza k tzv. pumping-u) a tak je do okolia schopná vyžarovať ako obrovský mikrovlnný laser. Vyžarovaná energia je obrovská, preto sa maser dá jednoducho pozorovať. Zároveň je jeho emisná čiara úzka a tak ľahko rozoznateľná. Najčastejšie sa pozoruje vyžarovanie na čiare $18\,\mathrm{cm}$ $\mathrm{OH}$, alebo $1{,}35\,\mathrm{cm}$ $\mathrm{H_2O}$. Z tohto spektra vieme zistiť rýchlosť hmoty okolo čiernej diery, a ak získame takéto spektrum pre rôzne pozície v rámci centra galaxie, tak aj veľkosť oblaku tohto materiálu. Z opakovaných pozorovaní vieme zistiť zrýchlenie pádu hmoty na čiernu dieru $a = 15{,}5\,\mathrm{km}\,{\mathrm{s}}^{-1}\,{\mathrm{rok}}^{-1}$. Kombináciou jednoduchých závislostí prichádzame k výslednému vzťahu pre vzdialenosť pozorovanej galaxie 
 
 $$
 d_{MM} \left[ \mathrm{m}  \right] = \frac{\left(v_{MM}\left[ \mathrm{m}\,{\mathrm{s}}^{-1}  \right]\right)^2}{a\left[ \mathrm{m}  \mathrm{s}^{-2}  \right] \cdot \Delta\Theta\left[ \mathrm{rad}  \right]}\, . \tag{3}

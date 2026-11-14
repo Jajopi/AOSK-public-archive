@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 2401
+weight: 5101
 points: '165'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2025:3-CK/1-SS/51-Zatmenie-Slnka-SS-3/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

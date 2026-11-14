@@ -10,15 +10,15 @@ label: Ú7
 weight: 7
 hasSolution: true
 source: ZAO:I_Zadania/06_FyzHaP/06_ZS_DK.tex
-rocniky:
+years:
 - '2008'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fyzika hviezd a planét
 collection: ZAO
 ---

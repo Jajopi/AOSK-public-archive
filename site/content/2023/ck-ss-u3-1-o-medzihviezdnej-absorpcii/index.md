@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú3
-weight: 2303
+weight: 5003
 hasSolution: true
 source: ZAO:I_Zadania/04_FotoSpek/04_SS_FI.tex
-rocniky:
+years:
 - '2023'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fotometria a spektroskopia
 collection: ZAO
 ---

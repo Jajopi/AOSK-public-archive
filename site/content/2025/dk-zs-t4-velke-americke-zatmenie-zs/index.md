@@ -13,15 +13,15 @@ authors:
 - Jana Švrčková
 hasSolution: true
 source: 2025:1-DK/0-ZS/04-Zatmenie-Slnka/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

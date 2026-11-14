@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T6
-weight: 2306
+weight: 5006
 points: '190'
 authors:
 - Martin Okánik
 hasSolution: true
 source: 2024:zCK/SS/aTeoria/zzz-Planeta-cerveneho-trpaslika.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

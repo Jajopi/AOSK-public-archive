@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú2
-weight: 302
+weight: 3002
 hasSolution: true
 source: ZAO:I_Zadania/08_Rozsiahle/08_SS_DK.tex
-rocniky:
+years:
 - '2021'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Rozsiahle príklady
 collection: ZAO
 ---

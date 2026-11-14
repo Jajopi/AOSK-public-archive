@@ -10,15 +10,15 @@ label: Ú1
 weight: 1
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_ZS_DK.tex
-rocniky:
+years:
 - '2015'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

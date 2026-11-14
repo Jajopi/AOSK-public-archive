@@ -7,7 +7,7 @@ Static, searchable archive of the problems and solutions of the Slovak Astronomi
 - year pages with all problems by round and category, the yearbook introduction and the list of constants
 - the yearbook of each year as PDF, compiled from the Overleaf sources (2007–2023: one PDF of the ZAO collection)
 - full-text search with filters (year, round, category, type, topic) – [Pagefind](https://pagefind.app/)
-- overview of what is missing (`/prehlad/`)
+- overview of all years on the home page: problems per category and round, what is missing
 
 Only problems that were published are included: for 2024 and later the list of problems is taken from the
 yearbook (ročenka) of the year, for 2007–2023 from the collection book *Zbierka úloh AO* (`sources/ZAO`).
@@ -44,7 +44,7 @@ from them, so a fix made in Overleaf only needs a new export and `make content`.
 3. Run `make content pdfs` (≈1–5 min for the import, figures are cached in `.cache/`; a few minutes per
    yearbook PDF).
    Read the summary: warnings are written to `site/data/report.json`, problems with missing figures or
-   solutions also appear on the page `/prehlad/`.
+   solutions also appear in the overview on the home page.
 4. Check the result locally: `make preview` (or `docker compose up`), open <http://localhost:8080>.
 5. Commit `site/content`, `site/data` and `site/static/pdf` and push; GitHub Actions publishes the site.
 

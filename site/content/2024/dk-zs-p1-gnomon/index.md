@@ -14,15 +14,15 @@ authors:
 - Radovan Lascsák
 hasSolution: true
 source: 2024:DK/ZS/zzz-Prakticka-ZS.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

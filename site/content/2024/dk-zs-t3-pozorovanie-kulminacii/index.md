@@ -13,15 +13,15 @@ authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:DK/ZS/Pozorovanie-kulminacii.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

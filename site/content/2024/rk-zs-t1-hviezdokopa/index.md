@@ -13,15 +13,15 @@ authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:RK/ZS/aTeoria/Hviezdokopa.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

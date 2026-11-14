@@ -7,7 +7,7 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 2501
+weight: 5201
 points: '250'
 authors:
 - J. Švrčková
@@ -15,15 +15,15 @@ authors:
 - S. Buranský
 hasSolution: true
 source: 2025:3-CK/1-SS/91-Planetarium/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

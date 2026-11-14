@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 501
+weight: 3201
 points: '120'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:1-DK/1-SS/90-Pocitanie-hviezd/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

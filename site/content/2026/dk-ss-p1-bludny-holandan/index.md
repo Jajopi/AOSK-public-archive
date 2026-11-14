@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 501
+weight: 3201
 points: '100'
 authors:
 - Martin Okánik
 hasSolution: true
 source: 2026:.SS/-DK/Bludny-holandan.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

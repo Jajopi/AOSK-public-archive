@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú3
-weight: 303
+weight: 3003
 hasSolution: true
 source: ZAO:I_Zadania/04_FotoSpek/04_SS_DK.tex
-rocniky:
+years:
 - '2012'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Fotometria a spektroskopia
 collection: ZAO
 ---

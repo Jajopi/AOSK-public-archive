@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 2501
+weight: 5201
 points: '100'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:zCK/SS/Prakticka/zzz-P-Zakreslovanie-Mesiaca-a-planet.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

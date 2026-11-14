@@ -7,18 +7,18 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: Ú4
-weight: 2504
+weight: 5204
 hasSolution: true
 source: ZAO:I_Zadania/10_Prakticke/10_SS_FI.tex
-rocniky:
+years:
 - '2010'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

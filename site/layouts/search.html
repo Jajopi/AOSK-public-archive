@@ -13,11 +13,11 @@
     <button id="more" class="button secondary" hidden>Ďalšie výsledky</button>
   </section>
 </div>
-<noscript>Vyhľadávanie potrebuje JavaScript. Úlohy nájdete aj podľa <a href="{{ "tagy/" | relURL }}">tém</a>.</noscript>
+<noscript>Vyhľadávanie potrebuje JavaScript. Úlohy nájdete aj podľa <a href="{{ "topics/" | relURL }}">tém</a>.</noscript>
 <script type="module">
   const pf = await import("{{ "pagefind/pagefind.js" | relURL }}");
   await pf.options({ excerptLength: 28, baseUrl: "{{ site.Home.RelPermalink }}" });
-  const ORDER = ["Ročník", "Kolo", "Kategória", "Typ", "Téma"];
+  const ORDER = ["Ročník", "Kategória", "Kolo", "Typ", "Téma"];
   const KOLO = ["Domáce kolo", "Regionálne kolo", "Celoštátne kolo"];
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);

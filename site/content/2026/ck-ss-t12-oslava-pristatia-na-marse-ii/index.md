@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T12
-weight: 2312
+weight: 5012
 points: '235'
 authors:
 - V Slanina
 hasSolution: true
 source: 2026:.SS/¹CK/MarsII.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

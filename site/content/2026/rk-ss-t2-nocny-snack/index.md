@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 1302
+weight: 4002
 points: '80'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2026:.SS/.RK/Nocny-snack.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,18 +7,18 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: Ú5
-weight: 2505
+weight: 5205
 hasSolution: true
 source: ZAO:I_Zadania/10_Prakticke/10_SS_FI.tex
-rocniky:
+years:
 - '2017'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

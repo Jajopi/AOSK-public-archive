@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú1
-weight: 2301
+weight: 5001
 hasSolution: true
 source: ZAO:I_Zadania/08_Rozsiahle/08_SS_FI.tex
-rocniky:
+years:
 - '2013'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Rozsiahle príklady
 collection: ZAO
 ---

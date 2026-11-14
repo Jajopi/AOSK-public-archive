@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú6
-weight: 2306
+weight: 5006
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_SS_FI.tex
-rocniky:
+years:
 - '2015'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

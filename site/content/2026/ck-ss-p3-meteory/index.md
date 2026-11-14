@@ -7,22 +7,22 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P3
-weight: 2503
+weight: 5203
 points: '45'
 authors:
 - Radovan Lascsák
 - Samuel Buranský
 hasSolution: true
 source: 2026:.SS/¹CK/P-Planetarium-II.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 1401
+weight: 4101
 points: '100'
 authors:
 - Lukáš Hudák
 hasSolution: true
 source: 2024:RK/SS/Dodovka/zzz-D-Expedicia Jupiter.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

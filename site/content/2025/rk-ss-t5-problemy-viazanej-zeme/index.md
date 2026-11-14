@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T5
-weight: 1305
+weight: 4005
 points: '60'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:2-RK/1-SS/01-Problemy-viazanej-Zeme/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

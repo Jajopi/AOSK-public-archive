@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú4
-weight: 304
+weight: 3004
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_SS_DK.tex
-rocniky:
+years:
 - '2017'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

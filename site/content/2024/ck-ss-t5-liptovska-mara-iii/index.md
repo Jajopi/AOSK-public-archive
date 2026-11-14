@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T5
-weight: 2305
+weight: 5005
 points: '150'
 authors:
 - Samuel Buranský
 hasSolution: true
 source: 2024:zCK/SS/aTeoria/zz-Solarna-(ne)konstanta-III.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

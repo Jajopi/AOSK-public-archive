@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 1303
+weight: 4003
 points: '60'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2025:2-RK/1-SS/03-Zatmenie-Slnka-SS-2/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

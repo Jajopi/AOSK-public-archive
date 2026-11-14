@@ -7,22 +7,22 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P2
-weight: 2502
+weight: 5202
 points: '100'
 authors:
 - Samuel Buranský
 - Jana Švrčková
 hasSolution: true
 source: 2024:zCK/SS/Prakticka/Planetarium.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

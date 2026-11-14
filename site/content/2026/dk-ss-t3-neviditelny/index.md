@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T3
-weight: 303
+weight: 3003
 points: '60'
 authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2026:.SS/-DK/Neviditelna trpaslicia-planeta.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

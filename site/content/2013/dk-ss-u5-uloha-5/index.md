@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú5
-weight: 305
+weight: 3005
 hasSolution: true
 source: ZAO:I_Zadania/02_GmtrCas/02_SS_DK.tex
-rocniky:
+years:
 - '2013'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Geometria a čas
 collection: ZAO
 ---

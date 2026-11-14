@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 1302
+weight: 4002
 points: '70'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:RK/SS/aTeoria/HR-diagram.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

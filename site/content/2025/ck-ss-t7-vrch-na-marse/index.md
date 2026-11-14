@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T7
-weight: 2307
+weight: 5007
 points: '120'
 authors:
 - Terézia Hanáková
 - Radovan Lascsák
 hasSolution: true
 source: 2025:3-CK/1-SS/07-Vrch-na-Marse/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

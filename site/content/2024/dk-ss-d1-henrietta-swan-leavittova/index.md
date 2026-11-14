@@ -7,21 +7,21 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 401
+weight: 3101
 points: '100'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2024:DK/SS/zzz-D-Henrietta-Swan-Leavittova.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 ---
 

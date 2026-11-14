@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú2
-weight: 302
+weight: 3002
 hasSolution: true
 source: ZAO:I_Zadania/07_Kozmo/07_SS_DK.tex
-rocniky:
+years:
 - '2011'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Kozmológia
 collection: ZAO
 ---

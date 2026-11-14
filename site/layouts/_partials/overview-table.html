@@ -1,0 +1,20 @@
+{{- /* Overview of all years (home page): problems per category and round, linked to the year page;
+       issues found by tools/build.py (data/overview.json). Context: page */ -}}
+{{- $cats := site.Params.categories -}}
+{{- $rounds := site.Params.rounds -}}
+<table class="overview">
+<thead>
+<tr><th rowspan="2">Ročník</th>{{ range $cats }}<th colspan="{{ len $rounds }}" class="group">{{ . }}</th>{{ end }}<th rowspan="2">Chýbajúce časti a iné problémy</th></tr>
+<tr>{{ range $cats }}{{ range $i, $r := $rounds }}<th{{ if eq $i 0 }} class="group"{{ end }}>{{ $r }}</th>{{ end }}{{ end }}</tr>
+</thead>
+<tbody>
+{{- range sort hugo.Data.overview "year" "desc" }}
+{{- $year := .year }}{{ $cells := .cells }}
+<tr><td><a href="{{ printf "%v/" $year | relURL }}">{{ $year }}</a></td>
+  {{- range $c := $cats }}{{ range $i, $r := $rounds }}
+  <td{{ if eq $i 0 }} class="group"{{ end }}>{{ with index $cells (printf "%s %s" $r $c) }}<a href="{{ printf "%v/" $year | relURL }}#{{ partial "group-id.html" (dict "cat" $c "round" $r) }}">{{ index . 0 }}</a>{{ else }}–{{ end }}</td>
+  {{- end }}{{ end }}
+  <td>{{ with .issues }}<ul class="issues">{{ range . }}<li><a href="{{ .url | relURL }}">{{ .where }} {{ .title }}</a>: {{ delimit .issues "; " }}</li>{{ end }}</ul>{{ end }}</td></tr>
+{{- end }}
+</tbody></table>
+<p class="muted">DK – domáce kolo, RK – regionálne kolo, CK – celoštátne kolo (finále).</p>

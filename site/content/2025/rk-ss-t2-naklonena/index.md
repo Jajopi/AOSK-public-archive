@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 1302
+weight: 4002
 points: '60'
 authors:
 - Samuel Amrich
 - Radovan Lascsák
 hasSolution: true
 source: 2025:2-RK/1-SS/02-Naklonena/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

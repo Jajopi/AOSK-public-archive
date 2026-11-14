@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T2
-weight: 302
+weight: 3002
 points: '80'
 authors:
 - Michal Zummer
 hasSolution: true
 source: 2026:.SS/-DK/Sonda-pri-ISS.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,18 +7,18 @@ category: SŠ
 type: datovka
 typeName: Dátová analýza
 label: D1
-weight: 2401
+weight: 5101
 hasSolution: true
 source: ZAO:I_Zadania/09_Dodovky/09_2019.tex
-rocniky:
+years:
 - '2019'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Dátová analýza
-tagy:
+topics:
 - Nezaradené
 collection: ZAO
 ---

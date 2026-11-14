@@ -10,15 +10,15 @@ label: Ú3
 weight: 3
 hasSolution: true
 source: ZAO:I_Zadania/02_GmtrCas/02_ZS_DK.tex
-rocniky:
+years:
 - '2008'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Geometria a čas
 collection: ZAO
 ---

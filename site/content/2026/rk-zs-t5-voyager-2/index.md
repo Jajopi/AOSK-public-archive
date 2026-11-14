@@ -13,15 +13,15 @@ authors:
 - Michal Zummer
 hasSolution: true
 source: 2026:-ZS/.RK/Voyager2.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

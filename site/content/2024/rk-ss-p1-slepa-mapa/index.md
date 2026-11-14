@@ -7,21 +7,21 @@ category: SŠ
 type: prakticka
 typeName: Praktická úloha
 label: P1
-weight: 1501
+weight: 4201
 points: '100'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2024:RK/SS/Prakticka/zzz-P-Slepa-mapa.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Praktická úloha
-tagy:
+topics:
 - Nezaradené
 ---
 

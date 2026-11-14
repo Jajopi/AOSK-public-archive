@@ -7,18 +7,18 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: Ú4
-weight: 2304
+weight: 5004
 hasSolution: true
 source: ZAO:I_Zadania/05_OptikDek/05_SS_FI.tex
-rocniky:
+years:
 - '2020'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Optika a detektory
 collection: ZAO
 ---

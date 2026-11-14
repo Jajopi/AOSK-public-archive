@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T5
-weight: 2305
+weight: 5005
 points: '70'
 authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:3-CK/1-SS/05-Snimam-snimam/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

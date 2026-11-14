@@ -13,15 +13,15 @@ authors:
 - Samuel Amrich
 hasSolution: true
 source: 2025:1-DK/0-ZS/01-Plutoniada/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Domáce kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T10
-weight: 2310
+weight: 5010
 points: '90'
 authors:
 - Radovan Lascsák
 hasSolution: true
 source: 2026:.SS/¹CK/Kozmologicka-supernova.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

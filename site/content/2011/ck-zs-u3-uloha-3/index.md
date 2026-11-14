@@ -10,15 +10,15 @@ label: Ú3
 weight: 2003
 hasSolution: true
 source: ZAO:I_Zadania/01_NebMech/01_ZS_FI.tex
-rocniky:
+years:
 - '2011'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - ZŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nebeská mechanika
 collection: ZAO
 ---

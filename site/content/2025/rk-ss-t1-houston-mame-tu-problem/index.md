@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 1301
+weight: 4001
 points: '60'
 authors:
 - Terézia Hanáková
 hasSolution: true
 source: 2025:2-RK/1-SS/05-Apollo-13/zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

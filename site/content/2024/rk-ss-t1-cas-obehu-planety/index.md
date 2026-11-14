@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 1301
+weight: 4001
 points: '50'
 authors:
 - Ondrej Juhás
 hasSolution: true
 source: 2024:RK/SS/aTeoria/Cas-obehu-planety.tex
-rocniky:
+years:
 - '2024'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

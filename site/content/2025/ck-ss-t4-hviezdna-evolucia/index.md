@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T4
-weight: 2304
+weight: 5004
 points: '70'
 authors:
 - Jana Švrčková
 hasSolution: true
 source: 2025:3-CK/1-SS/04-Hviezdna-evolucia/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

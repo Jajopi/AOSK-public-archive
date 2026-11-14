@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T9
-weight: 2309
+weight: 5009
 points: '90'
 authors:
 - Patrik Prítrský
 hasSolution: true
 source: 2026:.SS/¹CK/MIThenge.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

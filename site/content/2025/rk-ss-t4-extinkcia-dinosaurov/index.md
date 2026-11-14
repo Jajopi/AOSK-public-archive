@@ -7,21 +7,21 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T4
-weight: 1304
+weight: 4004
 points: '60'
 authors:
 - Martin Okánik
 hasSolution: true
 source: 2025:2-RK/1-SS/04-Extinkcia-dinosaurov-1/00-zadanie.tex
-rocniky:
+years:
 - '2025'
-kola:
+rounds:
 - Regionálne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 

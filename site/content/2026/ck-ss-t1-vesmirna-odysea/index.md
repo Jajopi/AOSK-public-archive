@@ -7,22 +7,22 @@ category: SŠ
 type: teoria
 typeName: Teória
 label: T1
-weight: 2301
+weight: 5001
 points: '20'
 authors:
 - S. Amrich
 - 'spracoval: Buranský'
 hasSolution: true
 source: 2026:.SS/¹CK/Vesmirna-Odysea.tex
-rocniky:
+years:
 - '2026'
-kola:
+rounds:
 - Celoštátne kolo
-kategorie:
+categories:
 - SŠ
-typy:
+types:
 - Teória
-tagy:
+topics:
 - Nezaradené
 ---
 
