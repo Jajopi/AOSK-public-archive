@@ -16,6 +16,8 @@ also listed live in the last column of the [overview page](https://jajopi.github
 - RK SŠ D1 Rýchlostná dátovka: `\ref{tab:tabulka-1}` points to a missing label (shows "??").
 - RK ZŠ P1 „Originálny názov“: placeholder title; the text mentions a figure that is not in the source.
 - DK ZŠ Hviezdny Mesiac: `\(` inside a formula.
+- CK SŠ D2 Vzdialená galaxia (`52-Farebna-mapa`): web links written with `\hyperlink` (an internal anchor) instead of
+  `\href`, so they do not work in the PDF (the import converts them).
 - DK SŠ D1 Vera Rubin links the Science article through `sci-hub.se` (kept as is, by decision).
 - Per-round solution documents fail to compile (2–11 errors each, no PDF).
 - 7 overfull lines in the yearbook.

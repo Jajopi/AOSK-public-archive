@@ -293,6 +293,8 @@ def text_macros(s: str) -> str:
     s = replace_cmd(s, 'textsl', 1, lambda o, a: '\\textit{' + a + '}')
     s = replace_cmd(s, 'makecell', 1, lambda o, a: re.sub(r'\\\\(\[[^\]]*\])?', ' ', a), opt=True)
     s = replace_cmd(s, 'texorpdfstring', 2, lambda o, a, b: a)
+    # \hyperlink{https://…}{text} (an internal-anchor command used for a web link) → \href
+    s = replace_cmd(s, 'hyperlink', 2, lambda o, u, t: ('\\href{%s}{%s}' if re.match(r'(https?:|www\.)', u.strip()) else '\\hyperlink{%s}{%s}') % (u.strip(), t))
     # links written without a scheme in the sources (www.aosk.sk, someone@aosk.sk) would become relative
     s = replace_cmd(s, 'href', 2, lambda o, u, t: '\\href{%s}{%s}' % (fix_url(u), re.sub(r'\\url\{([^}]*)\}', r'\1', t)))
     s = replace_cmd(s, 'url', 1, lambda o, u: '\\href{%s}{%s}' % (fix_url(u), o or u) if o or fix_url(u) != u
